@@ -1,0 +1,128 @@
+.module-wrapper {
+    margin-bottom: 100px;
+}
+
+
+.module-wrapper__title {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    color: #000000;
+}
+.module-wrapper__text {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #5E5E5E;
+    margin-bottom: 20px;
+}
+.module-wrapper__text span {
+    color: #2437E6;
+}
+.program {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.program-menu {
+    padding: 0;
+    list-style-type: none;
+}
+.program-tabs {
+    width: 30%;
+}
+.program-menu__item {
+    font-size: 25px;
+    color: #555555;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.module-wrapper .program-menu__item.active,
+.module-wrapper .program-menu__item:hover {
+    font-weight: 800;
+    color: #000000;
+    font-size: 30px;
+}
+.program-content {
+    width: 70%;
+}
+.program-content {
+    width: 100%;
+    min-height: 600px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.module-wrapper .module.active {
+    display: block;
+}
+.module-wrapper .module {
+    display: none;
+}
+.session-item {
+    border-bottom: 0.5px solid rgba(185, 185, 185, 0.5);
+}
+.session-item:last-child {
+    border: none;
+}
+.link--sessions span {
+    display: block;
+    font-weight: 800;
+    color: #2437E6;
+    margin-right: 20px;
+}
+.module-wrapper .link--sessions {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    font-size: 26px;
+    color: #000;
+    opacity: 0.5;
+    padding: 40px 80px;
+    transition: all 0.5s;
+}
+.module-wrapper .link--sessions.active {
+    opacity: 1;
+}
+.module-wrapper .link--sessions::before {
+    position: absolute;
+    content: '';
+    top: 30%;
+    right: 30px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/module/arrow.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(0deg);
+    transition: all 0.5s;
+
+
+}
+.module-wrapper .link--sessions.active::before {
+    transform: rotate(180deg);
+}
+.module-wrapper .session__number {
+    display: none;
+}
+.module-wrapper .session {
+    opacity: 0;
+    height: 0;
+    padding: 0 80px;
+    transition: all 0.5s;
+}
+.module-wrapper .session.active {
+    height: auto;
+    opacity: 1;
+}
+.session-list {
+    margin-bottom: 40px;
+}
+.session-list li {
+    font-size: 18px;
+    color: #5E5E5E;
+    margin-bottom: 20px;
+}
