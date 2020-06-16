@@ -72,12 +72,13 @@
     font-weight: 800;
     color: #2437E6;
     margin-right: 20px;
+    white-space: nowrap;
 }
 .module-wrapper .link--sessions {
     position: relative;
     display: flex;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 22px;
     color: #000;
     opacity: 0.5;
     padding: 40px 80px;
@@ -120,9 +121,34 @@
 }
 .session-list {
     margin-bottom: 40px;
+    padding: 0 80px;
 }
 .session-list li {
     font-size: 18px;
     color: #5E5E5E;
     margin-bottom: 20px;
+}
+.session-btn {
+    display: block;
+    width: 300px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    background: #2437E6;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.session-text {
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    color: #5E5E5E;
+    padding-bottom: 20px;
+}
+.session-text span {
+    font-weight: bold;
 }
