@@ -120,8 +120,9 @@
     opacity: 1;
 }
 .session-list {
+    margin-top: 0;
     margin-bottom: 40px;
-    padding: 0 80px;
+    padding: 20px 80px 0 80px;
 }
 .session-list li {
     font-size: 18px;

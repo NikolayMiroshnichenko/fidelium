@@ -10,7 +10,7 @@
     height: 100px;
     background-image: url(../img/main/logo.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     font-size: 0;
 }

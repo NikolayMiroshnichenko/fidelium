@@ -89,11 +89,196 @@
         height: 26px;
     }
 }
+@media (max-width: 1660px) {
+    .module-wrapper__text {
+        font-size: 16px;
+    }
+}
 @media (max-width: 1760px) {
     .speakers-list__item {
         font-size: 16px;
     }
 }
 @media (max-width: 1520px) {
-    
+    .container {
+        width: 1024px;
+    }
+    .header {
+        padding: 20px 0 40px;
+    }
+    .main-wrapper {
+        height: 680px;
+    }
+    .main-text {
+        margin-bottom: 40px;
+    }
+    .logo {
+        width: 60px;
+        height: 80px;
+    }
+    .speakers-list__item,
+    .session-text,
+    .session-list li,
+    .collision-list__item,
+    .risk-list__item-deskriptions,
+    .assignment-block__text,
+    .assignment-block-name p,
+    .main-btn__participate,
+    .main-text-deskriptions,
+    .header-number__text,
+    .navigations-list__item a {
+        font-size: 14px;
+    }
+    .hear-content__noy,
+    .header-number__number {
+        font-size: 22px;
+    } 
+    .video-title,
+    .main-text-course {
+        font-size: 28px;
+    }
+    .hear-content__title,
+    .main-text-name {
+        font-size: 50px;
+    }
+    .program-menu__item,
+    .hear-content__text,
+    .main-text-plan {
+        font-size: 20px;
+    }
+    .main-btn__participate::before {
+        width: 80px;
+        height: 80px;
+    }
+    .main-btn__detail {
+        font-size: 16px;
+    }
+    .img-text {
+        padding: 15px 25px;
+        font-size: 14px;
+    }
+    .hear-content__deskriptions {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+    .hear-content__icon {
+        top: 50%;
+    }
+    .hear-img__icon {
+        width: 100px;
+        height: 100px;
+    }
+    .collision-wrapper {
+        height: 640px;
+    }
+    .module-wrapper__title,
+    .risk-title,
+    .collision-title {
+        font-size: 32px;
+    }
+    .risk-list__item {
+        width: 42%;
+    }
+    .module-wrapper .program-menu__item.active,
+    .module-wrapper .program-menu__item:hover,
+    .risk-list__item-number {
+        font-size: 24px;
+    }
+    .risk-list__item-btn {
+        padding: 20px;
+        font-size: 14px;
+    }
+    .risk-list__item-btn::before {
+        width: 90px;
+        height: 90px;
+    }
+    .assignment-wrapper {
+        padding-bottom: 70px;
+    }
+    .assignment-block {
+        padding: 60px;
+    }
+    .assignment-block-name h2 {
+        font-size: 18px;
+    }
+    .module-wrapper .link--sessions {
+        padding: 20px 60px;
+        font-size: 16px;
+    }
+    .module-wrapper .link--sessions::before {
+        width: 10px;
+        height: 10px;
+    }
+    .session-list {
+        padding: 10px 40px 0 40px;
+    }
+    .session-btn {
+        width: 260px;
+        font-size: 14px;
+        padding: 18px 0;
+    }
+    .speakers-wrapper {
+        /* padding: 20px; */
+    }
+    .speakers-block__title {
+        font-size: 32px;
+    }
+    .speakers-img-text {
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+    .speakers-block__btn {
+        font-size: 14px;
+        padding: 18px 0;
+        margin-bottom: 40px;
+    }
+    .tariffs-title {
+        font-size: 40px;
+    }
+    .tariffs-list__title {
+        font-size: 18px;
+    }
+    .tariffs-icons {
+        margin-bottom: 20px;
+    }
+    .tariffs-list__title::before {
+        width: 50%;
+    }
+    .tariffs-icons__item {
+        font-size: 12px;
+        margin-bottom: 10px;
+        padding-left: 24px;
+    }
+    .svg {
+        width: 18px;
+        height: 18px;
+        transform: translateY(0);
+    }
+    .tariffs-des__item {
+        font-size: 12px;
+    }
+    .tariffs-price__new {
+        font-size: 24px;
+    }
+    .tariffs-price__old {
+        font-size: 16px;
+    }
+    .tariffs-btn {
+        font-size: 14px;
+        padding: 16px;
+    }
+    .footer-text,
+    .footer-list__item a,
+    .tariffs-bottom {
+        font-size: 12px;
+    }
+    .social-link__item,
+    .footer-card__item {
+        width: 28px;
+        height: 28px;
+    }
+    .social-link__item:last-child,
+    .footer-card__item:last-child {
+        margin-right: 0;
+    }
 }
