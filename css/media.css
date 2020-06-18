@@ -707,7 +707,7 @@
         background-image: url(../img/risk/risk-mob.svg);
     }
     .risk {
-        width: 90%;
+        width: 80%;
     }
     .risk-list {
         flex-direction: column;
@@ -746,7 +746,7 @@
         padding-bottom: 280px;
     }
     .assignment-block__men {
-        width: 65%;
+        width: 200px;
     }
     .assignment-block-name {
         right: 50%;
@@ -963,6 +963,43 @@
 
     
 }
+@media (max-width: 420px) {
+    .risk {
+        width: 70%;
+    }
+    .assignment-block__men {
+        width: 60%;
+    }
+}
+@media (max-width: 390px) {
+    .risk {
+        width: 75%;
+    }
+    .assignment-block__men {
+        width: 65%;
+    }
+}
+@media (max-width: 340px) {
+    .main-btn__participate::before {
+        left: -20%;
+    }
+    .risk {
+        width: 90%;
+    }
+    .risk-title {
+        font-size: 18px;
+    }
+    .assignment-block-name p,
+    .assignment-block__text {
+        font-size: 12px;
+    }
+    .assignment-block-name h2 {
+        font-size: 14px;
+    }
+}
+
+
+
 
 
 

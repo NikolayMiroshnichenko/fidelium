@@ -22,6 +22,7 @@ refs.sessions.addEventListener( 'click', openSession );
 refs.menu.addEventListener( 'click', openFirstSession );
 
 function openFirstSession( e ) {
+    e.preventDefault();
     refs.sectionsFirs.forEach( element => {
         if ( e.target.dataset.menu == element.dataset.first ) {
             element.children[0].classList.add( 'active' );
