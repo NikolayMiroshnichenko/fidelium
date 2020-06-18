@@ -52,6 +52,7 @@ body {
     color: #ffffff;
     font-weight: 300;
     margin: 0;
+    padding: 10px 0;
 }
 .main-text-plan span {
     font-weight: 700;
@@ -237,11 +238,15 @@ body {
     text-align: center;
 }
 .collision-list {
-    width: 46%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
     list-style-type: none;
     padding-left: 0;
 }
 .collision-list__item {
+    width: 47%;
     position: relative;
     color: #ffffff;
     font-size: 18px;

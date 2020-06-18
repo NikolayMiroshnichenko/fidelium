@@ -120,6 +120,7 @@
     opacity: 1;
 }
 .session-list {
+    overflow: hidden;
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 80px 0 80px;
@@ -152,4 +153,7 @@
 }
 .session-text span {
     font-weight: bold;
+}
+.module-title {
+    display: none;
 }

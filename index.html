@@ -24,13 +24,13 @@
             <nav class="navigations">
                 <ul class="navigations-list">
                     <li class="navigations-list__item">
-                        <a href="#">Для кого</a>
+                        <a href="#assignment" class="anchors">Для кого</a>
                     </li>
                     <li class="navigations-list__item">
-                        <a href="#">Программа</a>
+                        <a href="#module-wrapper" class="anchors">Программа</a>
                     </li>
                     <li class="navigations-list__item">
-                        <a href="#">Учавствовать</a>
+                        <a href="#tariffs" class="anchors">Учавствовать</a>
                     </li>
                 </ul>
             </nav>
@@ -80,27 +80,26 @@
             <ul class="collision-list">
                 <li class="collision-list__item">С полным непониманием с чего начать регистрацию и как правильно вести
                     деятельность.</li>
-                <li class="collision-list__item">Обманчивое ощущение, что законно вести бизнес сложно и дорого.</li>
-                <li class="collision-list__item">Большая публичность из-за работы через интернет</li>
-                <li class="collision-list__item">Риски попадания в поле зрения контролирующих и правоохранительных
-                    органов в том числе из-за жалоб клиентов или заказчиков</li>
-                <li class="collision-list__item">Низкий уровень доверия со стороны клиентов и заказчиков</li>
-                <li class="collision-list__item">Сложности при работе с юридическими лицами</li>
-                <li class="collision-list__item">Высокий риск потерять бизнес из-за невозможности его защитить в силу
-                    неофициального статуса;</li>
-
-            </ul>
-            <ul class="collision-list">
                 <li class="collision-list__item">Риски блокировки личных счетов в банке и наложенных платежей компанией
                     компанией Пост Финанс</li>
+                <li class="collision-list__item">Обманчивое ощущение, что законно вести бизнес сложно и дорого.</li>
                 <li class="collision-list__item">Возможные проблемы с осуществлением платежей</li>
+                <li class="collision-list__item">Большая публичность из-за работы через интернет</li>
                 <li class="collision-list__item">Невозможность получения кредита для расширения бизнеса</li>
+                <li class="collision-list__item">Риски попадания в поле зрения контролирующих и правоохранительных
+                    органов в том числе из-за жалоб клиентов или заказчиков</li>
                 <li class="collision-list__item">Постоянный стресс и переживания за последствия занятия бизнесом без
                     регистрации и потерю заработанных доходов</li>
+                <li class="collision-list__item">Низкий уровень доверия со стороны клиентов и заказчиков</li>
                 <li class="collision-list__item">Отсутствие возможности выстраивать эффективную работу с сотрудниками
                 </li>
+                <li class="collision-list__item">Сложности при работе с юридическими лицами</li>
                 <li class="collision-list__item">Хищение товаров персоналом без возможности привлечения к
                     ответственности</li>
+                <li class="collision-list__item">Высокий риск потерять бизнес из-за невозможности его защитить в силу
+                    неофициального статуса;</li>
+                    
+
             </ul>
         </div>
     </section>
@@ -142,7 +141,7 @@
         </div>
 
     </section>
-    <section class="assignment-wrapper">
+    <section class="assignment-wrapper" id="assignment">
         <div class="assignment container">
             <div class="assignment-block">
                 <p class="assignment-block__text">“Данный курс - это <span>ваша трансформация</span> из неуверенного,
@@ -174,7 +173,7 @@
             </div>
         </div>
     </section>
-    <section class="module-wrapper container">
+    <section class="module-wrapper container" id="module-wrapper">
         <h2 class="module-wrapper__title">Программа Обучения</h2>
         <div class="module-wrapper__text">КУРС <span>“ВСЕ ОТТЕНКИ БЕЛОГО или Диджитал ФОП 1.0</span> для товарщика или
             фрилансера <span>за 1 день не выходя из дома</span> - ваш легальный бизнес без рисков потери доходов,
@@ -196,8 +195,8 @@
             <div class="program-content">
                 <div class="program-body">
                     <div class="module module0 active">
-
-                        <div class="sessions">
+                        <h3 class="module-title active" data-default="module-zero" data-mobailmenu="module-0">Модуль 0</h3>
+                        <div class="sessions active" data-mobailsession="module-0">
                             <div class="session-item" data-first="module-zero">
                                 <a href="#" class="link--sessions active" data-link="session-0"><span>Сессия 0</span>ФОП
                                     – о чем это и когда уже пора. </a>
@@ -243,9 +242,11 @@
                         </div>
                     </div>
                     <div class="module module1">
-                        <div class="sessions">
+                        <h3 class="module-title" data-default="module-one" data-mobailmenu="module-1">Модуль 1</h3>
+
+                        <div class="sessions" data-mobailsession="module-1">
                             <div class="session-item" data-first="module-one">
-                                <a href="#" class="link--sessions active" data-link="session-2"><span>Сессия
+                                <a href="#" class="link--sessions active " data-link="session-2"><span>Сессия
                                         2</span>Способы регистрации ФОП.</a>
 
                                 <div class="session active" id="session-2">
@@ -372,7 +373,9 @@
                         </div>
                     </div>
                     <div class="module module2">
-                        <div class="sessions">
+                        <h3 class="module-title" data-default="module-two" data-mobailmenu="module-2">Модуль 2</h3>
+
+                        <div class="sessions" data-mobailsession="module-2">
                             <div class="session-item" data-first="module-two">
                                 <a href="#" class="link--sessions" data-link="session-7"><span>Сессия
                                         7</span> Новый «Портал Дія». Вход в личный кабинет. Функционал.
@@ -479,7 +482,9 @@
                         </div>
                     </div>
                     <div class="module module3">
-                        <div class="sessions">
+                        <h3 class="module-title" data-default="module-three" data-mobailmenu="module-3">Модуль 3</h3>
+
+                        <div class="sessions" data-mobailsession="module-3">
                             <div class="session-item" data-first="module-three">
                                 <a href="#" class="link--sessions" data-link="session-12"><span>Сессия
                                         12</span> Книга доходов и ее важность. Как заполнить и зарегистрировать.
@@ -596,7 +601,8 @@
 
                     </div>
                     <div class="module module4">
-                        <div class="sessions">
+                        <h3 class="module-title" data-default="module-four" data-mobailMenu="module-4">Модуль 4</h3>
+                        <div class="sessions" data-mobailsession="module-4">
                             <div class="session-item" data-first="module-four">
                                 <a href="#" class="link--sessions" data-link="session-17"><span>Сессия
                                         17</span> Политика конфиденциальности: сайт и защита персональных данных (GDPR)
@@ -779,161 +785,166 @@
                         </div>
                     </div>
                     <div class="module module5">
-                        <div class="session-item" data-first="module-five">
-                            <a href="#" class="link--sessions" data-link="session-24">
-                                <span>Сессия 24</span> Договора с заказчиками. Дистанционное подписание. Передача
-                                результатов работы.
-                            </a>
-
-                            <div class="session" id="session-24">
-                                <div class="session__icon"></div>
-                                <h2 class="session__number">Сессия 24</h2>
-                                <ul class="session-list">
-                                    <li>Что такое договор и для чего необходим. Какие проблемы решает. </li>
-                                    <li>В какой форме должен быть договор: письменная, электронная, устная. Применимые
-                                        виды договоров для фрилансера. </li>
-                                    <li>Какие существенные условия необходимо обсудить с заказчиком и изложить в
-                                        договоре. </li>
-                                    <li>Как предусмотреть фиксацию коммуникации с заказчиком в договоре.</li>
-                                    <li>Дистанционное подписание - как согласовать и оформить. </li>
-                                    <li>Договор - Банк - Налоговая: как взаимосвязаны и что важно знать. </li>
-                                    <li>Фиксация передачи результата работы/услуг. Нюансы и способы. </li>
-                                    <li>“А если не исполнит?” - ответственность в договорах, договорные споры и способы
-                                        разрешения. </li>
-                                </ul>
-                                <a href="#" class="session-btn">Принять Участие</a>
-                                <p class="session-text">Входит в тариф: <span>FULL / START / Товарщик /
-                                        Фрилансер</span></p>
+                        <h3 class="module-title" data-default="module-five" data-mobailmenu="module-5">Модуль 5</h3>
+                        <div class="sessions" data-mobailsession="module-5">
+                            
+                            <div class="session-item" data-first="module-five">
+                                <a href="#" class="link--sessions" data-link="session-24">
+                                    <span>Сессия 24</span> Договора с заказчиками. Дистанционное подписание. Передача
+                                    результатов работы.
+                                </a>
+    
+                                <div class="session" id="session-24">
+                                    <div class="session__icon"></div>
+                                    <h2 class="session__number">Сессия 24</h2>
+                                    <ul class="session-list">
+                                        <li>Что такое договор и для чего необходим. Какие проблемы решает. </li>
+                                        <li>В какой форме должен быть договор: письменная, электронная, устная. Применимые
+                                            виды договоров для фрилансера. </li>
+                                        <li>Какие существенные условия необходимо обсудить с заказчиком и изложить в
+                                            договоре. </li>
+                                        <li>Как предусмотреть фиксацию коммуникации с заказчиком в договоре.</li>
+                                        <li>Дистанционное подписание - как согласовать и оформить. </li>
+                                        <li>Договор - Банк - Налоговая: как взаимосвязаны и что важно знать. </li>
+                                        <li>Фиксация передачи результата работы/услуг. Нюансы и способы. </li>
+                                        <li>“А если не исполнит?” - ответственность в договорах, договорные споры и способы
+                                            разрешения. </li>
+                                    </ul>
+                                    <a href="#" class="session-btn">Принять Участие</a>
+                                    <p class="session-text">Входит в тариф: <span>FULL / START / Товарщик /
+                                            Фрилансер</span></p>
+                                </div>
+                            </div>
+                            <div class="session-item">
+                                <a href="#" class="link--sessions" data-link="session-25">
+                                    <span>Сессия 25</span> Работа с иностранными заказчиками. Как получать оплату в
+                                    иностранной валюте и в чем разница при работе с местными заказчиками. Оплата бюджетов на
+                                    рекламные компании заказчика с ваших банковских карт в разрезе налоговой базы.
+    
+                                </a>
+    
+                                <div class="session" id="session-25">
+                                    <div class="session__icon"></div>
+                                    <h2 class="session__number">Сессия 25</h2>
+                                    <ul class="session-list">
+                                        <li>Специфика договоров с нерезидентами - что нужно предусмотреть. </li>
+                                        <li>Согласование условий и подписание. </li>
+                                        <li>Валютные счета ФОПа и операции по ним. </li>
+                                        <li>Как оформлять прием денег от заказчика на рекламные бюджеты. Как такие платежи
+                                            связаны с обязанностями по уплате налогов.</li>
+                                        <li>Ответственность и вариации решения споров когда вы в разных странах. </li>
+                                    </ul>
+                                    <a href="#" class="session-btn">Принять Участие</a>
+                                    <p class="session-text">Входит в тариф: <span>FULL / START / Товарщик /
+                                            Фрилансер</span></p>
+                                </div>
+                            </div>
+                            <div class="session-item">
+                                <a href="#" class="link--sessions" data-link="session-26">
+                                    <span>Сессия 26</span> Авторские права на результат работа – кому принадлежат в итоге?
+                                    Вариации договоренностей с заказчиком и их формулировка в договорах.
+                                </a>
+    
+                                <div class="session" id="session-26">
+                                    <div class="session__icon"></div>
+                                    <h2 class="session__number">Сессия 26</h2>
+                                    <ul class="session-list">
+                                        <li>Что такое “авторское право” и когда оно возникает. </li>
+                                        <li>Что защищается авторским правом.
+                                        </li>
+                                        <li>Ваши возможные авторские права на результат работ. </li>
+                                        <li>О чем можно договариваться с заказчиком в вопросах авторского права.
+                                        </li>
+                                        <li>Случаи, когда возникает риск нарушения вам чужих авторских прав. </li>
+                                        <li>Ответственность. </li>
+                                    </ul>
+                                    <a href="#" class="session-btn">Принять Участие</a>
+                                    <p class="session-text">Входит в тариф: <span>FULL / START / Товарщик /
+                                            Фрилансер</span></p>
+                                </div>
+                            </div>
+                            <div class="session-item">
+                                <a href="#" class="link--sessions" data-link="session-27">
+                                    <span>Сессия 27</span> Взаимоотношения с Новой почтой. Зачисление оплаты за товары при
+                                    наложенных платежах напрямую на счет ФОПа от Форпоста.
+                                </a>
+    
+                                <div class="session" id="session-27">
+                                    <div class="session__icon"></div>
+                                    <h2 class="session__number">Сессия 27</h2>
+                                    <ul class="session-list">
+                                        <li>Договор с оператором “Новая почта”: какой он, о чем и для чего. </li>
+                                        <li>Порядок присоединения к договору.</li>
+                                        <li>Что изменится после заключения договора и какой функционал доступен. </li>
+                                        <li>Наложенные платежи после подписания договора. </li>
+                                    </ul>
+                                    <a href="#" class="session-btn">Принять Участие</a>
+                                    <p class="session-text">Входит в тариф: <span>FULL / START / Товарщик /
+                                            Фрилансер</span></p>
+                                </div>
+                            </div>
+                            <div class="session-item">
+                                <a href="#" class="link--sessions" data-link="session-28">
+                                    <span>Сессия 28</span> Регистрация торговой марки - нужна ли. Что защищает? Как проходит
+                                    регистрация и сколько стоит.
+                                </a>
+    
+                                <div class="session" id="session-28">
+                                    <div class="session__icon"></div>
+                                    <h2 class="session__number">Сессия 28</h2>
+                                    <ul class="session-list">
+                                        <li>Что такое ТМ и ее виды. Что регистрируют в Украине как торговую марку?</li>
+                                        <li>Зачем необходима регистрация ТМ. Преимущества зарегистрированной марки. ТМ как
+                                            защита бизнеса. </li>
+                                        <li>Понятия “торговая марка”, “бренд” и “товарный знак”.</li>
+                                        <li>Процедура и сроки регистрации. </li>
+                                        <li>Как использовать и передавать зарегистрированную ТМ.</li>
+                                        <li>Регистрация ТМ в других странах и/или во всем мире. </li>
+                                        <li>Какую ответственность понесут те, кто незаконно использует зарегистрированную
+                                            торговую марку. </li>
+                                    </ul>
+                                    <a href="#" class="session-btn">Принять Участие</a>
+                                    <p class="session-text">Входит в тариф: <span>FULL / START / Товарщик /
+                                            Фрилансер</span></p>
+                                </div>
+                            </div>
+                            <div class="session-item">
+                                <a href="#" class="link--sessions" data-link="session-29">
+                                    <span>Сессия 29</span> Финансовый мониторинг, верификация и Новая почта. Выплата
+                                    наложенных платежей
+                                    свыше 5000 грн. Как работать дальше. Чего ожидать от банков.
+                                </a>
+    
+                                <div class="session" id="session-29">
+                                    <div class="session__icon"></div>
+                                    <h2 class="session__number">Сессия 29</h2>
+                                    <ul class="session-list">
+                                        <li>
+                                            Финмониторинг - о чем это?
+                                        </li>
+                                        <li>Как работает финмониторинг в Украине. Операции на какую сумму попадают под
+                                            финмониторинг. </li>
+                                        <li>Правила поменялись - что изменилось после вступления в силу 28.04.2020 новой
+                                            редакции закона о финмониторинге. </li>
+                                        <li>Кого могут заподозрить в отмывании доходов. Как понять что к вам могут появится
+                                            претензии со стороны банков и финмониторинга. </li>
+                                        <li>Кого проверяют банки. Идентификация и верификация клиента. Какие операции могут
+                                            признать подозрительными и заблокировать счет. Какие документы нужно подать для
+                                            разблокировки чата. </li>
+                                        <li>Финмониторинг и Новая почта. Как проверяют. </li>
+                                        <li>Новая почта и ограничения выдачи наложенных платежей 5000 грн. в день без
+                                            идентификации/верификации. Что с этим делать. Чем грозит
+                                            идентификация/верификация для получения сумм свыше 5000 грн. </li>
+                                        <li>Чего ожидать в ближайшем будущем и почему ближайшее время о всех ваших доходах
+                                            будет знать государство.</li>
+                                    </ul>
+                                    <a href="#" class="session-btn">Принять Участие</a>
+                                    <p class="session-text">Входит в тариф: <span>FULL / START / Товарщик /
+                                            Фрилансер</span></p>
+                                </div>
                             </div>
                         </div>
-                        <div class="session-item">
-                            <a href="#" class="link--sessions" data-link="session-25">
-                                <span>Сессия 25</span> Работа с иностранными заказчиками. Как получать оплату в
-                                иностранной валюте и в чем разница при работе с местными заказчиками. Оплата бюджетов на
-                                рекламные компании заказчика с ваших банковских карт в разрезе налоговой базы.
-
-                            </a>
-
-                            <div class="session" id="session-25">
-                                <div class="session__icon"></div>
-                                <h2 class="session__number">Сессия 25</h2>
-                                <ul class="session-list">
-                                    <li>Специфика договоров с нерезидентами - что нужно предусмотреть. </li>
-                                    <li>Согласование условий и подписание. </li>
-                                    <li>Валютные счета ФОПа и операции по ним. </li>
-                                    <li>Как оформлять прием денег от заказчика на рекламные бюджеты. Как такие платежи
-                                        связаны с обязанностями по уплате налогов.</li>
-                                    <li>Ответственность и вариации решения споров когда вы в разных странах. </li>
-                                </ul>
-                                <a href="#" class="session-btn">Принять Участие</a>
-                                <p class="session-text">Входит в тариф: <span>FULL / START / Товарщик /
-                                        Фрилансер</span></p>
-                            </div>
-                        </div>
-                        <div class="session-item">
-                            <a href="#" class="link--sessions" data-link="session-26">
-                                <span>Сессия 26</span> Авторские права на результат работа – кому принадлежат в итоге?
-                                Вариации договоренностей с заказчиком и их формулировка в договорах.
-                            </a>
-
-                            <div class="session" id="session-26">
-                                <div class="session__icon"></div>
-                                <h2 class="session__number">Сессия 26</h2>
-                                <ul class="session-list">
-                                    <li>Что такое “авторское право” и когда оно возникает. </li>
-                                    <li>Что защищается авторским правом.
-                                    </li>
-                                    <li>Ваши возможные авторские права на результат работ. </li>
-                                    <li>О чем можно договариваться с заказчиком в вопросах авторского права.
-                                    </li>
-                                    <li>Случаи, когда возникает риск нарушения вам чужих авторских прав. </li>
-                                    <li>Ответственность. </li>
-                                </ul>
-                                <a href="#" class="session-btn">Принять Участие</a>
-                                <p class="session-text">Входит в тариф: <span>FULL / START / Товарщик /
-                                        Фрилансер</span></p>
-                            </div>
-                        </div>
-                        <div class="session-item">
-                            <a href="#" class="link--sessions" data-link="session-27">
-                                <span>Сессия 27</span> Взаимоотношения с Новой почтой. Зачисление оплаты за товары при
-                                наложенных платежах напрямую на счет ФОПа от Форпоста.
-                            </a>
-
-                            <div class="session" id="session-27">
-                                <div class="session__icon"></div>
-                                <h2 class="session__number">Сессия 27</h2>
-                                <ul class="session-list">
-                                    <li>Договор с оператором “Новая почта”: какой он, о чем и для чего. </li>
-                                    <li>Порядок присоединения к договору.</li>
-                                    <li>Что изменится после заключения договора и какой функционал доступен. </li>
-                                    <li>Наложенные платежи после подписания договора. </li>
-                                </ul>
-                                <a href="#" class="session-btn">Принять Участие</a>
-                                <p class="session-text">Входит в тариф: <span>FULL / START / Товарщик /
-                                        Фрилансер</span></p>
-                            </div>
-                        </div>
-                        <div class="session-item">
-                            <a href="#" class="link--sessions" data-link="session-28">
-                                <span>Сессия 28</span> Регистрация торговой марки - нужна ли. Что защищает? Как проходит
-                                регистрация и сколько стоит.
-                            </a>
-
-                            <div class="session" id="session-28">
-                                <div class="session__icon"></div>
-                                <h2 class="session__number">Сессия 28</h2>
-                                <ul class="session-list">
-                                    <li>Что такое ТМ и ее виды. Что регистрируют в Украине как торговую марку?</li>
-                                    <li>Зачем необходима регистрация ТМ. Преимущества зарегистрированной марки. ТМ как
-                                        защита бизнеса. </li>
-                                    <li>Понятия “торговая марка”, “бренд” и “товарный знак”.</li>
-                                    <li>Процедура и сроки регистрации. </li>
-                                    <li>Как использовать и передавать зарегистрированную ТМ.</li>
-                                    <li>Регистрация ТМ в других странах и/или во всем мире. </li>
-                                    <li>Какую ответственность понесут те, кто незаконно использует зарегистрированную
-                                        торговую марку. </li>
-                                </ul>
-                                <a href="#" class="session-btn">Принять Участие</a>
-                                <p class="session-text">Входит в тариф: <span>FULL / START / Товарщик /
-                                        Фрилансер</span></p>
-                            </div>
-                        </div>
-                        <div class="session-item">
-                            <a href="#" class="link--sessions" data-link="session-29">
-                                <span>Сессия 29</span> Финансовый мониторинг, верификация и Новая почта. Выплата
-                                наложенных платежей
-                                свыше 5000 грн. Как работать дальше. Чего ожидать от банков.
-                            </a>
-
-                            <div class="session" id="session-29">
-                                <div class="session__icon"></div>
-                                <h2 class="session__number">Сессия 29</h2>
-                                <ul class="session-list">
-                                    <li>
-                                        Финмониторинг - о чем это?
-                                    </li>
-                                    <li>Как работает финмониторинг в Украине. Операции на какую сумму попадают под
-                                        финмониторинг. </li>
-                                    <li>Правила поменялись - что изменилось после вступления в силу 28.04.2020 новой
-                                        редакции закона о финмониторинге. </li>
-                                    <li>Кого могут заподозрить в отмывании доходов. Как понять что к вам могут появится
-                                        претензии со стороны банков и финмониторинга. </li>
-                                    <li>Кого проверяют банки. Идентификация и верификация клиента. Какие операции могут
-                                        признать подозрительными и заблокировать счет. Какие документы нужно подать для
-                                        разблокировки чата. </li>
-                                    <li>Финмониторинг и Новая почта. Как проверяют. </li>
-                                    <li>Новая почта и ограничения выдачи наложенных платежей 5000 грн. в день без
-                                        идентификации/верификации. Что с этим делать. Чем грозит
-                                        идентификация/верификация для получения сумм свыше 5000 грн. </li>
-                                    <li>Чего ожидать в ближайшем будущем и почему ближайшее время о всех ваших доходах
-                                        будет знать государство.</li>
-                                </ul>
-                                <a href="#" class="session-btn">Принять Участие</a>
-                                <p class="session-text">Входит в тариф: <span>FULL / START / Товарщик /
-                                        Фрилансер</span></p>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -947,10 +958,7 @@
 
     <section class="speakers-wrapper">
         <div class="speakers container">
-            <div class="speakers-img">
-                <img src="img/speakers/speakers.svg" alt="">
-                <p class="speakers-img-text">Андрей Лисовский</p>
-            </div>
+            
             <div class="speakers-logo">
                 <img src="img/speakers/logo.svg" alt="">
             </div>
@@ -973,10 +981,14 @@
                 </ul>
                 <a href="#" class="speakers-block__btn">Принять Участие</a>
             </div>
+            <div class="speakers-img">
+                <img src="img/speakers/speakers.svg" alt="">
+                <p class="speakers-img-text">Андрей Лисовский</p>
+            </div>
 
         </div>
     </section>
-    <section class="tariffs container">
+    <section class="tariffs container" id="tariffs">
         <h2 class="tariffs-title">Тарифы обучения</h2>
         <ul class="tariffs-list">
             <li class="tariffs-list__item">
@@ -1188,6 +1200,8 @@
 
     <script src="js/jqvery.js"></script>
     <script src="js/tabs.js"></script>
+    <script src="js/mobils-tabs.js"></script>
+    <script src="js/anchors.js"></script>
 </body>
 
 </html>
