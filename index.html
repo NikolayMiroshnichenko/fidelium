@@ -1026,7 +1026,7 @@
                     <p class="tariffs-price__new">$340</p>
                     <p class="tariffs-price__old">890</p>
                 </div>
-                <a href="#" class="tariffs-btn">Принять Участие</a>
+                <a href="#" class="tariffs-btn js-open-menu" data-name="Фрилансер">Принять Участие</a>
                 <p class="tariffs-bottom">Гарантия возврата средств в течение 14 дней</p>
             </li>
             <li class="tariffs-list__item">
@@ -1064,7 +1064,7 @@
                     <p class="tariffs-price__new">$470</p>
                     <p class="tariffs-price__old">890</p>
                 </div>
-                <a href="#" class="tariffs-btn">Принять Участие</a>
+                <a href="#" class="tariffs-btn js-open-menu" data-name="FULL">Принять Участие</a>
                 <p class="tariffs-bottom">Гарантия возврата средств в течение 14 дней</p>
             </li>
             <li class="tariffs-list__item">
@@ -1102,7 +1102,7 @@
                     <p class="tariffs-price__new">$370</p>
                     <p class="tariffs-price__old">890</p>
                 </div>
-                <a href="#" class="tariffs-btn">Принять Участие</a>
+                <a href="#" class="tariffs-btn js-open-menu" data-name="Товарщик">Принять Участие</a>
                 <p class="tariffs-bottom">Гарантия возврата средств в течение 14 дней</p>
             </li>
             <li class="tariffs-list__item">
@@ -1140,7 +1140,7 @@
                     <p class="tariffs-price__new">$120</p>
                     <p class="tariffs-price__old">890</p>
                 </div>
-                <a href="#" class="tariffs-btn">Принять Участие</a>
+                <a href="#" class="tariffs-btn js-open-menu" data-name="START">Принять Участие</a>
                 <p class="tariffs-bottom">Гарантия возврата средств в течение 14 дней</p>
             </li>
         </ul>
@@ -1195,10 +1195,27 @@
                     href="mailto:info@protargeting.team">info@protargeting.team</a></p>
         </div>
     </footer>
+    <div class="modal-wrapper" data-close="close-modal">
+        <div class="modal">
+            <h2 class="modal-title">Для того чтобы принять участие
+                в пакете <div class="modal-title-tariff"></div>
+            </h2>
+            <p class="modal-title-des">Введите свои данные ниже</p>
+            <form class="modal-form">
+                <input type="text" placeholder="Имя..." class="input">
+                <input type="text" placeholder="E-mail..." class="input">
+                <input type="text" id="phone" placeholder="Номер телефона" class="input">
+                <button type="submit" class="modal-btn">Принять  Участие</button>
+            </form>
+        
+            <span class="close-icon"></span>
+        </div>
+    </div>
 
 
 
     <script src="js/jqvery.js"></script>
+    <script src="js/modal.js"></script>
     <script src="js/tabs.js"></script>
     <script src="js/mobils-tabs.js"></script>
     <script src="js/anchors.js"></script>

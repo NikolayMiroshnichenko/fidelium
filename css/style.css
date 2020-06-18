@@ -1,4 +1,5 @@
 @import './header.css';
+@import './modal.css';
 
 * {
     box-sizing: border-box;
@@ -693,13 +694,6 @@ body {
 .tariffs-list__item:hover .tariffs-icons-last::before {
     background-color: #ffffff;
 }
-
-
-
-
-
-
-
 /* FOOTER */
 .footer-wrapper {
     width: 100%;
