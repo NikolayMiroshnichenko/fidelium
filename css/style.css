@@ -1,5 +1,7 @@
 @import './header.css';
 @import './modal.css';
+@import './menu.css';
+
 
 * {
     box-sizing: border-box;
