@@ -201,6 +201,11 @@
     .assignment-block-name h2 {
         font-size: 18px;
     }
+    .video-container {
+        width: 450px;
+        height: 16rem;
+    }
+
     .module-wrapper .link--sessions {
         padding: 20px 60px;
         font-size: 16px;
@@ -772,8 +777,8 @@
         font-size: 20px;
     }
     .video-container {
-        width: 100%;
-        height: 15rem;
+        width: 340px;
+        height: 12rem;
     }
     .module-wrapper {
         margin-bottom: 40px;
@@ -979,6 +984,15 @@
         width: 65%;
     }
 }
+@media (max-width: 370px) {
+    .video-title {
+        font-size: 16px;
+    }
+    .video-container {
+        width: 300px;
+        height: 10.5rem;
+    }
+}
 @media (max-width: 340px) {
     .main-btn__participate::before {
         left: -20%;
@@ -995,6 +1009,10 @@
     }
     .assignment-block-name h2 {
         font-size: 14px;
+    }
+    .video-container {
+        width: 260px;
+        height: 9rem;
     }
 }
 

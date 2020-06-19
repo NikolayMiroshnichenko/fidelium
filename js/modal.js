@@ -17,7 +17,7 @@ function closeModal(e) {
     e.preventDefault();
 
     if(e.target.nodeName !== 'SPAN' && e.target.dataset.close !== 'close-modal') return;
-
+    
     nameTariff.innerHTML = '';
     modal.classList.remove('active');
 }
