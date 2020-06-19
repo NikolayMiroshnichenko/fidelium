@@ -2,7 +2,7 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     left: 0;
     top: 0;
@@ -16,10 +16,14 @@
     height: 100vh;
     padding: 20px;
 }
+.munu-soceal,
 .menu-list {
     list-style-type: none;
     padding-left: 0;
     margin-top: 0;
+}
+.menu-list {
+    margin-bottom: 40px;
 }
 .menu-list li {
     display: block;
@@ -49,4 +53,46 @@
     font-size: 16px;
     padding: 2px 0;
     margin: 0;
+}
+.munu-soceal {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.munu-soceal li {
+    margin-right: 35px;
+}
+.munu-soceal li:last-child {
+    margin-right: 0;
+}
+.munu-soceal__item {
+    display: block;
+    text-decoration: none;
+    font-size: 0;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.telegram {
+    background-image: url(../img/menu/telegram.svg);
+}
+.instagram {
+    background-image: url(../img/menu/instagram.svg);
+}
+.faceboock {
+    background-image: url(../img/menu/facebook.svg);
+}
+.menu-close {
+    position: absolute;
+    display: block;
+    right: 30px;
+    top: 30px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/menu/close.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
