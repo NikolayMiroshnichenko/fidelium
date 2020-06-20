@@ -129,6 +129,9 @@
     .navigations-list__item a {
         font-size: 14px;
     }
+    .main-btn__participate {
+        padding: 16px 0;
+    }
     .hear-content__noy,
     .header-number__number {
         font-size: 22px;

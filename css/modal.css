@@ -74,6 +74,7 @@
     border-radius: 10px;
 }
 .modal-btn {
+    margin-top: 30px;
     padding: 22px 20px;
     width: 100%;
     color: #ffffff;
@@ -131,6 +132,7 @@
     }
     .modal-btn {
         padding: 14px;
+        margin-top: 18px;
     }
 
 }

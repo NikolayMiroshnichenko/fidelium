@@ -827,4 +827,13 @@ iframe {
 .visa {
     background-image: url(../img/footer/visa.svg);
 }
+/* HOVER */
+.btn-hover {
+    transform: scale(1);
+    transition: all 0.2s;
+}
+.btn-hover:hover {
+    transform: scale(1.06);
+    opacity: 0.8;
+}
 
