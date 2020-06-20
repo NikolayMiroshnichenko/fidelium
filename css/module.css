@@ -114,6 +114,7 @@
     height: 0;
     padding: 0 80px;
     transition: all 0.5s;
+    overflow: hidden;
 }
 .module-wrapper .session.active {
     height: auto;
