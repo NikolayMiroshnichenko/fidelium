@@ -1,1026 +1,974 @@
 @media (max-width: 1900px) {
-    .main-wrapper {
-        height: 840px;
-    }
-    .hear-content__noy,
-    .header-number__number {
-        font-size: 24px;
-    }
-    .collision-list__item,
-    .risk-list__item-deskriptions,
-    .assignment-block__text,
-    .footer-contacts__number,
-    .navigations-list__item a,
-    .header-number__text,
-    .main-btn__detail,
-    .main-text-deskriptions {
-        font-size: 16px;
-    }
-    .main-text-course {
-        font-size: 32px;
-    }
-    .main-text-name {
-        font-size: 56px;
-    }
-    .tariffs-price__new,
-    .risk-list__item-number,
-    .main-text-plan {
-        font-size: 28px;
-    }
-    .hear-img__icon {
-        width: 140px;
-        height: 140px;
-    }
-    .hear-content__title {
-        font-size: 46px;
-    }
-    .hear-content__deskriptions {
-        font-size: 24px;
-        margin-bottom: 80px;
-    }
-    .hear-content__text {
-        font-size: 20px;
-    }
-    .hear-content__icon {
-        top: 40%;
-        width: 360px;
-        height: 160px;
-    }
-    .collision-title {
-        font-size: 36px;
-    }
-    .risk {
-        width: 65%;
-    }
-    .risk-list__item {
-        width: 40%;
-    }
-    .risk-title {
-        font-size: 42px;
-    }
-    .assignment-block-desing__bottom,
-    .assignment-block-desing__top {
-        font-size: 100px;
-    }
-    .speakers-block__title {
-        font-size: 38px;
-    }
-    .tariffs-title {
-        font-size: 40px;
-    }
-    .tariffs-list__item {
-        padding: 20px 30px;
-    }
-    .tariffs-list__title {
-        font-size: 20px;
-    }
-    .img-text
-    .main-btn__participate,
-    .footer-text,
-    .footer-list__item a,
-    .tariffs-btn,
-    .tariffs-bottom,
-    .tariffs-des__item,
-    .tariffs-icons__item {
-        font-size: 14px;
-    }
-    .svg {
-        width: 26px;
-        height: 26px;
-    }
+  .main-wrapper {
+    height: 840px;
+  }
+  .hear-content__noy,
+  .header-number__number {
+    font-size: 24px;
+  }
+  .collision-list__item,
+  .risk-list__item-deskriptions,
+  .assignment-block__text,
+  .footer-contacts__number,
+  .navigations-list__item a,
+  .header-number__text,
+  .main-btn__detail,
+  .main-text-deskriptions {
+    font-size: 16px;
+  }
+  .main-text-course {
+    font-size: 32px;
+  }
+  .main-text-name {
+    font-size: 56px;
+  }
+  .risk-list__item-number,
+  .main-text-plan {
+    font-size: 28px;
+  }
+  .hear-img__icon {
+    width: 140px;
+    height: 140px;
+  }
+  .hear-content__title {
+    font-size: 46px;
+  }
+  .hear-content__deskriptions {
+    font-size: 24px;
+    margin-bottom: 80px;
+  }
+  .hear-content__text {
+    font-size: 20px;
+  }
+  .hear-content__icon {
+    top: 40%;
+    width: 360px;
+    height: 160px;
+  }
+  .collision-title {
+    font-size: 36px;
+  }
+  .risk {
+    width: 65%;
+  }
+  .risk-list__item {
+    width: 40%;
+  }
+  .risk-title {
+    font-size: 42px;
+  }
+  .assignment-block-desing__bottom,
+  .assignment-block-desing__top {
+    font-size: 100px;
+  }
+  .speakers-block__title {
+    font-size: 38px;
+  }
+  .img-text .main-btn__participate,
+  .footer-text,
+  .footer-list__item a {
+    font-size: 14px;
+  }
+  .svg {
+    width: 26px;
+    height: 26px;
+  }
 }
 @media (max-width: 1660px) {
-    .module-wrapper__text {
-        font-size: 16px;
-    }
+  .module-wrapper__text {
+    font-size: 16px;
+  }
 }
 @media (max-width: 1760px) {
-    .speakers-list__item {
-        font-size: 16px;
-    }
+  .speakers-list__item {
+    font-size: 16px;
+  }
 }
 @media (max-width: 1520px) {
-    .container {
-        width: 1024px;
-    }
-    .header {
-        padding: 20px 0 40px;
-    }
-    .main-wrapper {
-        height: 680px;
-    }
-    .main-text {
-        margin-bottom: 40px;
-    }
-    .logo {
-        width: 60px;
-        height: 80px;
-    }
-    .speakers-list__item,
-    .session-text,
-    .session-list li,
-    .collision-list__item,
-    .risk-list__item-deskriptions,
-    .assignment-block__text,
-    .assignment-block-name p,
-    .main-btn__participate,
-    .main-text-deskriptions,
-    .header-number__text,
-    .navigations-list__item a {
-        font-size: 14px;
-    }
-    .main-btn__participate {
-        padding: 16px 0;
-    }
-    .hear-content__noy,
-    .header-number__number {
-        font-size: 22px;
-    } 
-    .video-title,
-    .main-text-course {
-        font-size: 28px;
-    }
-    .hear-content__title,
-    .main-text-name {
-        font-size: 50px;
-    }
-    .program-menu__item,
-    .hear-content__text,
-    .main-text-plan {
-        font-size: 20px;
-    }
-    .main-btn__participate::before {
-        width: 80px;
-        height: 80px;
-    }
-    .main-btn__detail {
-        font-size: 16px;
-    }
-    .img-text {
-        padding: 15px 25px;
-        font-size: 14px;
-    }
-    .hear-content__deskriptions {
-        font-size: 18px;
-        margin-bottom: 60px;
-    }
-    .hear-content__icon {
-        top: 50%;
-    }
-    .hear-img__icon {
-        width: 100px;
-        height: 100px;
-    }
-    .collision-wrapper {
-        height: 640px;
-    }
-    .module-wrapper__title,
-    .risk-title,
-    .collision-title {
-        font-size: 32px;
-    }
-    .risk-list__item {
-        width: 42%;
-    }
-    .module-wrapper .program-menu__item.active,
-    .module-wrapper .program-menu__item:hover,
-    .risk-list__item-number {
-        font-size: 24px;
-    }
-    .risk-list__item-btn {
-        padding: 20px;
-        font-size: 14px;
-    }
-    .risk-list__item-btn::before {
-        width: 90px;
-        height: 90px;
-    }
-    .assignment-wrapper {
-        padding-bottom: 70px;
-    }
-    .assignment-block {
-        padding: 60px;
-    }
-    .assignment-block-name h2 {
-        font-size: 18px;
-    }
-    .video-container {
-        width: 450px;
-        height: 16rem;
-    }
+  .container {
+    width: 1024px;
+  }
+  .header {
+    padding: 20px 0 40px;
+  }
+  .main-wrapper {
+    height: 680px;
+  }
+  .main-text {
+    margin-bottom: 40px;
+  }
+  .logo {
+    width: 60px;
+    height: 80px;
+  }
+  .speakers-list__item,
+  .session-text,
+  .session-list li,
+  .collision-list__item,
+  .risk-list__item-deskriptions,
+  .assignment-block__text,
+  .assignment-block-name p,
+  .main-btn__participate,
+  .main-text-deskriptions,
+  .header-number__text,
+  .navigations-list__item a {
+    font-size: 14px;
+  }
+  .main-btn__participate {
+    padding: 16px 0;
+  }
+  .hear-content__noy,
+  .header-number__number {
+    font-size: 22px;
+  }
+  .video-title,
+  .main-text-course {
+    font-size: 28px;
+  }
+  .hear-content__title,
+  .main-text-name {
+    font-size: 50px;
+  }
+  .program-menu__item,
+  .hear-content__text,
+  .main-text-plan {
+    font-size: 20px;
+  }
+  .main-btn__participate::before {
+    width: 80px;
+    height: 80px;
+  }
+  .main-btn__detail {
+    font-size: 16px;
+  }
+  .img-text {
+    padding: 15px 25px;
+    font-size: 14px;
+  }
+  .hear-content__deskriptions {
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+  .hear-content__icon {
+    top: 50%;
+  }
+  .hear-img__icon {
+    width: 100px;
+    height: 100px;
+  }
+  .collision-wrapper {
+    height: 640px;
+  }
+  .module-wrapper__title,
+  .risk-title,
+  .collision-title {
+    font-size: 32px;
+  }
+  .risk-list__item {
+    width: 42%;
+  }
+  .module-wrapper .program-menu__item.active,
+  .module-wrapper .program-menu__item:hover,
+  .risk-list__item-number {
+    font-size: 24px;
+  }
+  .risk-list__item-btn {
+    padding: 20px;
+    font-size: 14px;
+  }
+  .risk-list__item-btn::before {
+    width: 90px;
+    height: 90px;
+  }
+  .assignment-wrapper {
+    padding-bottom: 70px;
+  }
+  .assignment-block {
+    padding: 60px;
+  }
+  .assignment-block-name h2 {
+    font-size: 18px;
+  }
+  .video-container {
+    width: 450px;
+    height: 16rem;
+  }
+  .course-description {
+    width: 1170px;
+  }
+  .course-bottom-list__item {
+    width: 24%;
+  }
+  .course-description-list__item,
+  .course-bottom-list__item {
+    font-size: 14px;
+  }
 
-    .module-wrapper .link--sessions {
-        padding: 20px 60px;
-        font-size: 16px;
-    }
-    .module-wrapper .link--sessions::before {
-        width: 10px;
-        height: 10px;
-    }
-    .session-list {
-        padding: 10px 40px 0 40px;
-    }
-    .session-btn {
-        width: 260px;
-        font-size: 14px;
-        padding: 18px 0;
-    }
-    .speakers-block__title {
-        font-size: 32px;
-        margin: 0;
-        margin-bottom: 20px;
-    }
-    .speakers-img-text {
-        font-size: 14px;
-        padding: 15px 25px;
-    }
-    .speakers-block__btn {
-        font-size: 14px;
-        padding: 18px 0;
-        margin-bottom: 40px;
-    }
-    .speakers-logo {
-        top: 40px;
-    }
-    .tariffs-title {
-        font-size: 40px;
-    }
-    .tariffs-list__title {
-        font-size: 18px;
-    }
-    .tariffs-icons {
-        margin-bottom: 20px;
-    }
-    .tariffs-list__title::before {
-        width: 50%;
-    }
-    .tariffs-icons__item {
-        font-size: 12px;
-        margin-bottom: 10px;
-        padding-left: 24px;
-    }
-    .svg {
-        width: 18px;
-        height: 18px;
-        transform: translateY(0);
-    }
-    .tariffs-des__item {
-        font-size: 12px;
-    }
-    .tariffs-price__new {
-        font-size: 24px;
-    }
-    .tariffs-price__old {
-        font-size: 16px;
-    }
-    .tariffs-btn {
-        font-size: 14px;
-        padding: 16px;
-    }
-    .footer-text,
-    .footer-list__item a,
-    .tariffs-bottom {
-        font-size: 12px;
-    }
-    .social-link__item,
-    .footer-card__item {
-        width: 28px;
-        height: 28px;
-    }
-    .social-link__item:last-child,
-    .footer-card__item:last-child {
-        margin-right: 0;
-    }
+  .module-wrapper .link--sessions {
+    padding: 20px 60px;
+    font-size: 16px;
+  }
+  .module-wrapper .link--sessions::before {
+    width: 10px;
+    height: 10px;
+  }
+  .session-list {
+    padding: 10px 40px 0 40px;
+  }
+  .session-btn {
+    width: 260px;
+    font-size: 14px;
+    padding: 18px 0;
+  }
+  .speakers-block__title {
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .speakers-img-text {
+    font-size: 14px;
+    padding: 15px 25px;
+  }
+  .speakers-block__btn {
+    font-size: 14px;
+    padding: 18px 0;
+    margin-bottom: 40px;
+  }
+  .speakers-logo {
+    top: 40px;
+  }
+  .svg {
+    width: 18px;
+    height: 18px;
+    transform: translateY(0);
+  }
+  .footer-text,
+  .footer-list__item a .social-link__item,
+  .footer-card__item {
+    width: 28px;
+    height: 28px;
+  }
+  .social-link__item:last-child,
+  .footer-card__item:last-child {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1290px) {
+  .course-description {
+    width: 968px;
+  }
+  .course-description-list__item {
+    width: 400px;
+  }
+  .course-bottom-list__item,
+  .course-description-list__item {
+    font-size: 14px;
+  }
 }
 @media (max-width: 1240px) {
-    .container {
-        width: 880px;
-    }
-    .main-text-course {
-        margin: 0;
-    }
-    .main-wrapper {
-        height: 600px;
-    }
-    .main-text-name {
-        font-size: 42px;
-    }
-    .main-text-course {
-        font-size: 24px;
-    }
-    .main-text-plan {
-        font-size: 18px;
-    }
-    .main-btn__participate {
-        font-size: 12px;
-    }
-    .main-btn__participate::before {
-        left: -15%;
-    }
-    .hear-content__title {
-        margin: 0;
-        font-size: 42px;
-    }
-    .hear-content__deskriptions {
-        font-size: 16px;
-        margin-bottom: 40px;
-    }
-    .collision {
-        width: 75%;
-    }
-    .collision-list__item {
-        margin-bottom: 18px;
-    }
-    .risk {
-        width: 75%;
-    }
-    .module-wrapper__text {
-        font-size: 14px;
-    }
-    .speakers-img {
-        left: 0;
-    }
-    .speakers-block__title {
-        font-size: 26px;
-    }
-    .speakers-list__item {
-        font-size: 12px;
-        margin-bottom: 15px;
-        padding-left: 20px;
-    }
-    .speakers-list__item::before {
-        width: 14px;
-        height: 14px;
-    }
-    .speakers-block__btn {
-        font-size: 12px;
-        padding: 14px 0;
-        margin-bottom: 20px;
-    }
-    .speakers-img-text {
-        font-size: 12px;
-        padding: 12px 18px;
-    }
-    .tariffs-title {
-        font-size: 32px;
-    }
-    .tariffs-list__item {
-        padding: 20px 15px;
-    }
-    .tariffs-btn {
-        font-size: 12px;
-    }
-    .footer-content__img {
-        margin-right: 20px;
-    }
-    .footer-list__item {
-        padding: 0 20px;
-    }
-    .social-link__item {
-        width: 22px;
-        height: 22px;
-        margin-right: 25px;
-    }
-    .footer-contacts__email,
-    .footer-contacts__addres,
-    .footer-contacts__number {
-        font-size: 14px;
-    }
-
+  .container {
+    width: 880px;
+  }
+  .main-text-course {
+    margin: 0;
+  }
+  .main-wrapper {
+    height: 600px;
+  }
+  .main-text-name {
+    font-size: 42px;
+  }
+  .main-text-course {
+    font-size: 24px;
+  }
+  .main-text-plan {
+    font-size: 18px;
+  }
+  .main-btn__participate {
+    font-size: 12px;
+  }
+  .main-btn__participate::before {
+    left: -15%;
+  }
+  .hear-content__title {
+    margin: 0;
+    font-size: 42px;
+  }
+  .hear-content__deskriptions {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .collision {
+    width: 75%;
+  }
+  .collision-list__item {
+    margin-bottom: 18px;
+  }
+  .risk {
+    width: 75%;
+  }
+  .module-wrapper__text {
+    font-size: 14px;
+  }
+  .speakers-img {
+    left: 0;
+  }
+  .speakers-block__title {
+    font-size: 26px;
+  }
+  .speakers-list__item {
+    font-size: 12px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+  .speakers-list__item::before {
+    width: 14px;
+    height: 14px;
+  }
+  .speakers-block__btn {
+    font-size: 12px;
+    padding: 14px 0;
+    margin-bottom: 20px;
+  }
+  .speakers-img-text {
+    font-size: 12px;
+    padding: 12px 18px;
+  }
+  .footer-content__img {
+    margin-right: 20px;
+  }
+  .footer-list__item {
+    padding: 0 20px;
+  }
+  .social-link__item {
+    width: 22px;
+    height: 22px;
+    margin-right: 25px;
+  }
+  .footer-contacts__email,
+  .footer-contacts__addres,
+  .footer-contacts__number {
+    font-size: 14px;
+  }
 }
 @media (max-width: 1040px) {
-    .hear-img__icon {
-        width: 60px;
-        height: 60px;
-    }
-    .hear-content__title {
-        font-size: 32px;
-    }
-    .hear-content__text,
-    .hear-content__deskriptions {
-        font-size: 14px;
-    }
-    .hear-content__noy {
-        font-size: 18px;
-    }
-    .hear-content__icon {
-        top: 45%;
-    }
-    .collision-wrapper {
-        height: 540px;
-    }
-    .collision-title {
-        font-size: 28px;
-    }
-    .collision-list__item {
-        font-size: 12px;
-        margin-bottom: 15px;
-    }
-    .collision-list__item::before {
-        height: 6px;
-        width: 6px;
-    }
-    .risk-list__item-deskriptions {
-        font-size: 12px;
-    }
-    .risk-list__item-btn {
-        width: 60%;
-        font-size: 12px;
-        padding: 16px;
-    }
-    .risk-list__item-btn::before {
-        left: -15%;
-        width: 70px;
-        height: 70px;
-    }
-    .assignment-block__text {
-        font-size: 12px;
-    }
-    .assignment-block {
-        padding: 40px;
-    }
+  .hear-img__icon {
+    width: 60px;
+    height: 60px;
+  }
+  .hear-content__title {
+    font-size: 32px;
+  }
+  .hear-content__text,
+  .hear-content__deskriptions {
+    font-size: 14px;
+  }
+  .hear-content__noy {
+    font-size: 18px;
+  }
+  .hear-content__icon {
+    top: 45%;
+  }
+  .collision-wrapper {
+    height: 540px;
+  }
+  .collision-title {
+    font-size: 28px;
+  }
+  .collision-list__item {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .collision-list__item::before {
+    height: 6px;
+    width: 6px;
+  }
+  .risk-list__item-deskriptions {
+    font-size: 12px;
+  }
+  .risk-list__item-btn {
+    width: 60%;
+    font-size: 12px;
+    padding: 16px;
+  }
+  .risk-list__item-btn::before {
+    left: -15%;
+    width: 70px;
+    height: 70px;
+  }
+  .assignment-block__text {
+    font-size: 12px;
+  }
+  .assignment-block {
+    padding: 40px;
+  }
+}
+@media (max-width: 990px) {
+  .course-description {
+    width: 760px;
+  }
+  .course-description-list__item {
+    width: 100%;
+  }
+  .course-bottom-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .course-bottom-list__item {
+    width: 40%;
+    margin: 0 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .course-bottom-list__item,
+  .course-description-list__item {
+    font-size: 16px;
+  }
 }
 @media (max-width: 920px) {
-    .container {
-        width: 720px;
-    }
-    .main-wrapper {
-        height: 500px;
-        margin-bottom: 80px;
-    }
-    .logo {
-        width: 40px;
-        height: 60px;
-    }
-    .main-text-deskriptions,
-    .navigations-list__item a {
-        font-size: 12px;
-    }
-    .main-text-plan,
-    .header-number__number {
-        font-size: 16px;
-    }
-    .header-number__text {
-        font-size: 10px;
-    }
-    .main-text-course {
-        font-size: 18px;
-    }
-    .main-text-name {
-        font-size: 30px;
-    }
-    .main-btn__participate {
-        font-size: 10px;
-        padding: 16px 0;
-        margin-bottom: 30px;
-    }
-    .main-btn__participate::before {
-        width: 60px;
-        height: 60px;
-    }
-    .main-btn__detail {
-        font-size: 12px;
-        padding: 10px 0;
-    }
-    .main-btn__detail::before {
-        height: 1px;
-    }
-    .main-img {
-        right: 7%;
-        width: 47%;
-    }
-    .img-text {
-        padding: 10px 14px;
-        font-size: 10px;
-    }
-    .img-text__first {
-        top: -20px;
-        left: 70%;
-    }
-    .hear-content__title {
-        font-size: 26px;
-    }
-    .module-wrapper__text,
-    .hear-content__text,
-    .hear-content__deskriptions {
-        font-size: 12px;
-    }
-    .hear-content__noy {
-        font-size: 16px;
-    }
-    .risk {
-        width: 85%;
-    }
-    .module-wrapper__title,
-    .risk-title {
-        font-size: 28px;
-    }
-    .risk-list__item-number {
-        font-size: 20px;
-    }
-    .risk-list__item {
-        width: 42%;
-    }
-    .risk-list__item-btn {
-        width: 80%;
-    }
-    .program-menu__item {
-        font-size: 16px;
-    }
-    .module-wrapper .program-menu__item.active,
-    .module-wrapper .program-menu__item:hover {
-        font-size: 18px;
-    }
-    .module-wrapper .link--sessions {
-        padding: 20px 30px;
-        font-size: 14px;
-    }
-    .module-wrapper .session {
-        padding: 0 20px;
-    }
-    .session-list li {
-        font-size: 12px;
-        margin-bottom: 14px;
-    }
-    .session-btn {
-        width: 200px;
-        font-size: 12px;
-        padding: 14px 0;
-    }
-    .session-text {
-        font-size: 12px;
-    }
-    .speakers-list__item {
-        font-size: 10px;
-    }
-    .speakers-block__title {
-        font-size: 22px;
-    }
-    .speakers-list {
-        margin-bottom: 20px;
-    }
-    .tariffs-list {
-        flex-direction: column;
-        align-items: center;
-    }
-    .tariffs-list__item {
-        width: 100%;
-        padding: 30px 80px;
-    }
-    .tariffs-icons {
-        width: 35%;
-    }
-    .tariffs-btn {
-        width: 30%;
-    }
-    
-
-
-    .assignment-block-desing__top,
-    .assignment-block-desing__bottom {
-        font-size: 80px;
-    }
+  .container {
+    width: 720px;
+  }
+  .main-wrapper {
+    height: 500px;
+    margin-bottom: 80px;
+  }
+  .logo {
+    width: 40px;
+    height: 60px;
+  }
+  .main-text-deskriptions,
+  .navigations-list__item a {
+    font-size: 12px;
+  }
+  .main-text-plan,
+  .header-number__number {
+    font-size: 16px;
+  }
+  .header-number__text {
+    font-size: 10px;
+  }
+  .main-text-course {
+    font-size: 18px;
+  }
+  .main-text-name {
+    font-size: 30px;
+  }
+  .main-btn__participate {
+    font-size: 10px;
+    padding: 16px 0;
+    margin-bottom: 30px;
+  }
+  .main-btn__participate::before {
+    width: 60px;
+    height: 60px;
+  }
+  .main-btn__detail {
+    font-size: 12px;
+    padding: 10px 0;
+  }
+  .main-btn__detail::before {
+    height: 1px;
+  }
+  .main-img {
+    right: 7%;
+    width: 47%;
+  }
+  .img-text {
+    padding: 10px 14px;
+    font-size: 10px;
+  }
+  .img-text__first {
+    top: -20px;
+    left: 70%;
+  }
+  .hear-content__title {
+    font-size: 26px;
+  }
+  .module-wrapper__text,
+  .hear-content__text,
+  .hear-content__deskriptions {
+    font-size: 12px;
+  }
+  .hear-content__noy {
+    font-size: 16px;
+  }
+  .risk {
+    width: 85%;
+  }
+  .module-wrapper__title,
+  .risk-title {
+    font-size: 28px;
+  }
+  .risk-list__item-number {
+    font-size: 20px;
+  }
+  .risk-list__item {
+    width: 42%;
+  }
+  .risk-list__item-btn {
+    width: 80%;
+  }
+  .program-menu__item {
+    font-size: 16px;
+  }
+  .module-wrapper .program-menu__item.active,
+  .module-wrapper .program-menu__item:hover {
+    font-size: 18px;
+  }
+  .module-wrapper .link--sessions {
+    padding: 20px 30px;
+    font-size: 14px;
+  }
+  .module-wrapper .session {
+    padding: 0 20px;
+  }
+  .session-list li {
+    font-size: 12px;
+    margin-bottom: 14px;
+  }
+  .session-btn {
+    width: 200px;
+    font-size: 12px;
+    padding: 14px 0;
+  }
+  .session-text {
+    font-size: 12px;
+  }
+  .speakers-list__item {
+    font-size: 10px;
+  }
+  .speakers-block__title {
+    font-size: 22px;
+  }
+  .speakers-list {
+    margin-bottom: 20px;
+  }
+  .assignment-block-desing__top,
+  .assignment-block-desing__bottom {
+    font-size: 80px;
+  }
 }
 @media (max-width: 760px) {
-    .container {
-        width: 90%;
-    }
-    .main-wrapper {
-        height: auto;
-        background-image: url(../img/main/main-mobil-bg.svg);
-        margin-bottom: 40px;
-    }
-    .navigations {
-        display: none;
-    }
-    .main-text {
-        width: 100%;
-    }
-    .main-text-course {
-        text-align: center;
-        font-size: 14px;
-    }
-    .main-text-name {
-        text-align: center;
-        font-size: 60px;
-        margin: 0;
-        padding: 0;
-    }
-    .main-text-plan {
-        text-align: center;
-    }
-    .main-text-deskriptions {
-        text-align: center;
-    }
-    .main-btn {
-        width: 100%;
-        margin-bottom: 40px;
-    }
-    .main-btn__detail,
-    .main-btn__participate {
-        width: 50%;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-    .main-img {
-        position: static;
-        width: 100%;
-    }
-    .img-text {
-        font-size: 12px;
-    }
-    .img-text__second {
-        right: 55%;
-        top: 90%;
-    }
-    .img-text__first {
-        top: 80%;
-        left: 55%;
-    }
-    .hear {
-        position: relative;
-        flex-direction: column;
-    }
-    .hear-content {
-        position: static;
-        width: 100%;
-    }
-    .hear-img {
-        width: 100%;
-    }
-    .hear-content__title {
-        text-align: center;
-        font-size: 26px;
-    }
-    .hear-content__deskriptions {
-        text-align: center;
-        font-size: 14px;
-    }
-    .hear-content__icon {
-        position: absolute;
-        width: 100%;
-        z-index: 89;
-        left: 0;
-        top: 46%;
-        height: 280px;
-        background-image: url(../img/hear/noy-mob.png);
-    }
-    .hear-content__text {
-        position: absolute;
-        left: 5%;
-        bottom: 50px;
-        z-index: 99;
-        color: #ffffff;
-        font-size: 12px;
-        font-style: italic;
-    }
-    .hear-content__noy {
-        position: absolute;
-        left: 5%;
-        bottom: 15px;
-        z-index: 99;
-        color: #ffffff;
-        font-size: 16px;
-    }
-    .hear-img__icon {
-        width: 80px;
-        height: 80px;
-        left: 10%;
-        transform: translateY(-20%);
-        z-index: 0;
-    }
-    .hear-img img {
-        position: relative;
-        z-index: 1;
-    }
-    .collision-wrapper {
-        height: auto;
-        background-image: url(../img/сollision/collision-mob.svg);
-    }
-    .collision-title {
-        font-size: 20px;
-    }
-    .collision-list {
-        flex-direction: column;
-    }
-    .collision-list__item {
-        width: 100%;
-    }
-    .risk-title {
-        font-size: 20px;
-        margin-bottom: 40px;
-    }
-    .risk-wrapper {
-        padding-bottom: 110px;
-        background-image: url(../img/risk/risk-mob.svg);
-    }
-    .risk {
-        width: 80%;
-    }
-    .risk-list {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 0;
-    }
-    .risk-list__item {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .risk-list__item-number {
-        font-size: 30px;
-    }
-    .risk-list__item-deskriptions {
-        font-size: 14px;
-    }
-    .risk-list__item-btn {
-        width: 80%;
-        margin: 0 auto;
-        font-size: 16px;
-    }
-    .risk-list__item-btn::before {
-        width: 90px;
-        height: 90px;
-    }
-    .assignment-wrapper {
-        margin-bottom: 40px;
-    }
-    .assignment-block {
-        padding: 20px;
-        overflow: hidden;
-    }
-    .assignment-block__text {
-        font-size: 14px;
-        width: 100%;
-        padding-bottom: 280px;
-    }
-    .assignment-block__men {
-        width: 200px;
-    }
-    .assignment-block-name {
-        right: 50%;
-        bottom: 29%;
-    }
-    .assignment-block-name h2 {
-        font-size: 16px;
-        text-align: right;
-    }
-    .assignment-block-name p {
-        text-align: right;
-    }
-    .assignment-block-desing__top {
-        overflow: hidden;
-        font-size: 120px;
-        left: 0;
-        top: 85%;
-    }
-    .assignment-block-desing__bottom {
-        display: none;
-    }
-    .video-title {
-        font-size: 20px;
-    }
-    .video-container {
-        width: 340px;
-        height: 12rem;
-    }
-    .module-wrapper {
-        margin-bottom: 40px;
-    }
-    .module-wrapper__title {
-        font-size: 24px;
-    }
-    .module-wrapper__text {
-        width: 100%;
-    }
-    .program-tabs {
-        display: none;
-    }
-    .module-wrapper .module {
-        display: block;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        margin-bottom: 20px;
-    }
-    .module-title {
-        text-decoration: none;
-        color: #000;
-        font-weight: 800;
-        position: relative;
-        display: block;
-        font-size: 20px;
-        padding: 20px;
-
-    }
-    .module-wrapper .module-title::before {
-        position: absolute;
-        content: '';
-        top: 50%;
-        right: 20px;
-        transform: translateY(-50%);
-        width: 15px;
-        height: 15px;
-        background-image: url(../img/module/arrow.png);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        transition: all 0.5s;
-    }
-    .module-wrapper .module-title.active::before {
-        right: 10px;
-        width: 30px;
-        height: 30px;
-        background-image: url(../img/module/mobil-arrow.png);
-    }
-    .program-body .sessions {
-        display: none;
-    }
-    .program-body .sessions.active {
-        display: block;
-    }
-    .program-content {
-        background: none;
-        min-height: auto;
-        box-shadow: none;
-    }
-    .module-wrapper .session {
-        overflow: hidden;
-    }
-    .module-wrapper .link--sessions {
-        flex-direction: column;
-        padding-right: 40px;
-    }
-    .module-wrapper .link--sessions::before {
-        right: 20px;
-        top: 20%;
-    }
-    .session-list {
-        padding: 10px 20px;
-        margin-bottom: 10px;
-    }
-    .speakers-wrapper {
-        overflow: hidden;
-        position: relative;
-        padding: 40px 0 0 0;
-        background-image: url(../img/speakers/speakers-bg-mob.svg);
-        margin-bottom: 40px;
-    }
-    .speakers-logo {
-        display: none;
-    }
-    .speakers-img {
-        position: relative;
-        width: 120%;
-        transform: translateX(-15%);
-    }
-    .speakers-block {
-        width: 100%;
-        margin-left: 0;
-    }
-    .speakers-block__title {
-        text-align: center;
-    }
-    .speakers-list__item {
-        font-size: 14px;
-    }
-    .speakers-img-text {
-        top: -20px;
-        left: 50%;
-    }
-    .speakers-block__btn {
-        position: absolute;
-        bottom: 30px;
-        z-index: 999;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 280px;
-        padding: 20px 0;
-    }
-    .tariffs-list__item {
-        padding: 15px 30px;
-    }
-    .tariffs-icons {
-        width: 90%;
-        margin: 0 auto;
-    }
-    .tariffs-des__item,
-    .tariffs-icons__item {
-        font-size: 14px;
-    }
-    .tariffs-list__title {
-        font-size: 20px;
-    }
-    .tariffs-des {
-        margin-bottom: 20px;
-    }
-    .tariffs-btn {
-        width: 80%;
-    }
-    .tariffs-price__new {
-        font-size: 28px;
-    }
-    .tariffs-price__old {
-        font-size: 18px;
-    }
-    .tariffs-bottom {
-        padding: 0 30px;
-    }
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 0;
-    }
-    .footer-content__img {
-        margin-right: 0;
-        width: 40%;
-        margin-bottom: 20px;
-    }
-    .social-link {
-        position: static;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-    .social-link__item {
-        margin-right: 35px;
-    }
-    .footer-list {
-        justify-content: center;
-    }
-    .footer-list__item {
-        margin-bottom: 15px;
-    }
-    .footer-contacts {
-        position: static;
-        text-align: right;
-        margin-bottom: 20px;
-    }
-    .footer-cart {
-        position: static;
-        justify-content: center;
-        transform: translateY(0);
-        margin-bottom: 20px;
-    }
-    .visa,
-    .mastercart {
-        width: 35px;
-        height: 35px;
-    }
-    .footer-text {
-        width: 100%;
-        text-align: center;
-    }
-
-    
+  .container {
+    width: 90%;
+  }
+  .main-wrapper {
+    height: auto;
+    background-image: url(../img/main/main-mobil-bg.webp);
+    margin-bottom: 40px;
+  }
+  .navigations {
+    display: none;
+  }
+  .main-text {
+    width: 100%;
+  }
+  .main-text-course {
+    text-align: center;
+    font-size: 14px;
+  }
+  .main-text-name {
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+  }
+  .main-text-plan {
+    text-align: center;
+  }
+  .main-text-deskriptions {
+    text-align: center;
+  }
+  .main-btn {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .main-btn__detail,
+  .main-btn__participate {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .main-img {
+    position: static;
+    width: 100%;
+  }
+  .img-text {
+    font-size: 12px;
+  }
+  .img-text__second {
+    right: 55%;
+    top: 90%;
+  }
+  .img-text__first {
+    top: 80%;
+    left: 55%;
+  }
+  .hear {
+    position: relative;
+    flex-direction: column;
+  }
+  .hear-content {
+    position: static;
+    width: 100%;
+  }
+  .hear-img {
+    width: 100%;
+  }
+  .hear-content__title {
+    text-align: center;
+    font-size: 26px;
+  }
+  .hear-content__deskriptions {
+    text-align: center;
+    font-size: 14px;
+  }
+  .hear-content__icon {
+    position: absolute;
+    width: 100%;
+    z-index: 89;
+    left: 0;
+    top: 46%;
+    height: 280px;
+    background-image: url(../img/hear/noy-mob.png);
+  }
+  .hear-content__text {
+    position: absolute;
+    left: 5%;
+    bottom: 50px;
+    z-index: 99;
+    color: #ffffff;
+    font-size: 12px;
+    font-style: italic;
+  }
+  .hear-content__noy {
+    position: absolute;
+    left: 5%;
+    bottom: 15px;
+    z-index: 99;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .hear-img__icon {
+    width: 80px;
+    height: 80px;
+    left: 10%;
+    transform: translateY(-20%);
+    z-index: 0;
+  }
+  .hear-img img {
+    position: relative;
+    z-index: 1;
+  }
+  .collision-wrapper {
+    height: auto;
+    background-image: url(../img/сollision/collision-mob.webp);
+  }
+  .collision-title {
+    font-size: 20px;
+  }
+  .collision-list {
+    flex-direction: column;
+  }
+  .collision-list__item {
+    width: 100%;
+  }
+  .risk-title {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .risk-wrapper {
+    padding-bottom: 110px;
+    background-image: url(../img/risk/risk-mob.webp);
+  }
+  .risk {
+    width: 80%;
+  }
+  .risk-list {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .risk-list__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .risk-list__item-number {
+    font-size: 30px;
+  }
+  .risk-list__item-deskriptions {
+    font-size: 14px;
+  }
+  .risk-list__item-btn {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .risk-list__item-btn::before {
+    width: 90px;
+    height: 90px;
+  }
+  .assignment-wrapper {
+    margin-bottom: 40px;
+  }
+  .assignment-block {
+    padding: 20px;
+    overflow: hidden;
+  }
+  .assignment-block__text {
+    font-size: 14px;
+    width: 100%;
+    padding-bottom: 280px;
+  }
+  .assignment-block__men {
+    width: 200px;
+  }
+  .assignment-block-name {
+    right: 50%;
+    bottom: 29%;
+  }
+  .assignment-block-name h2 {
+    font-size: 16px;
+    text-align: right;
+  }
+  .assignment-block-name p {
+    text-align: right;
+  }
+  .assignment-block-desing__top {
+    overflow: hidden;
+    font-size: 120px;
+    left: 0;
+    top: 85%;
+  }
+  .assignment-block-desing__bottom {
+    display: none;
+  }
+  .video-title {
+    font-size: 20px;
+  }
+  .video-container {
+    width: 340px;
+    height: 12rem;
+  }
+  .course-description {
+    width: 90%;
+  }
+  .course-description__title {
+    font-size: 28px;
+  }
+  .course-description-list__item {
+    padding: 0 0 0 20px;
+  }
+  .course-description-list__item::before {
+    left: 0;
+    width: 8px;
+    height: 8px;
+  }
+  .course-bottom-list__item {
+    width: 100%;
+    margin: 0 0 60px 0;
+  }
+  .module-wrapper {
+    margin-bottom: 40px;
+  }
+  .module-wrapper__title {
+    font-size: 24px;
+  }
+  .module-wrapper__text {
+    width: 100%;
+  }
+  .program-tabs {
+    display: none;
+  }
+  .module-wrapper .module {
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .module-title {
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+    position: relative;
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .module-wrapper .module-title::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/module/arrow.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+  }
+  .module-wrapper .module-title.active::before {
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/module/mobil-arrow.png);
+  }
+  .program-body .sessions {
+    display: none;
+  }
+  .program-body .sessions.active {
+    display: block;
+  }
+  .program-content {
+    background: none;
+    min-height: auto;
+    box-shadow: none;
+  }
+  .module-wrapper .session {
+    overflow: hidden;
+  }
+  .module-wrapper .link--sessions {
+    flex-direction: column;
+    padding-right: 40px;
+  }
+  .module-wrapper .link--sessions::before {
+    right: 20px;
+    top: 20%;
+  }
+  .session-list {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+  .speakers-wrapper {
+    overflow: hidden;
+    position: relative;
+    padding: 40px 0 0 0;
+    background-image: url(../img/speakers/speakers-bg-mob.webp);
+    margin-bottom: 40px;
+  }
+  .speakers-logo {
+    display: none;
+  }
+  .speakers-img {
+    position: relative;
+    width: 120%;
+    transform: translateX(-15%);
+  }
+  .speakers-block {
+    width: 100%;
+    margin-left: 0;
+  }
+  .speakers-block__title {
+    text-align: center;
+  }
+  .speakers-list__item {
+    font-size: 14px;
+  }
+  .speakers-img-text {
+    top: -20px;
+    left: 50%;
+  }
+  .speakers-block__btn {
+    position: absolute;
+    bottom: 30px;
+    z-index: 999;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 280px;
+    padding: 20px 0;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .footer-content__img {
+    margin-right: 0;
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .social-link {
+    position: static;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .social-link__item {
+    margin-right: 35px;
+  }
+  .footer-list {
+    justify-content: center;
+  }
+  .footer-list__item {
+    margin-bottom: 15px;
+  }
+  .footer-contacts {
+    position: static;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  .footer-cart {
+    position: static;
+    justify-content: center;
+    transform: translateY(0);
+    margin-bottom: 20px;
+  }
+  .visa,
+  .mastercart {
+    width: 35px;
+    height: 35px;
+  }
+  .footer-text {
+    width: 100%;
+    text-align: center;
+  }
 }
 @media (max-width: 420px) {
-    .risk {
-        width: 70%;
-    }
-    .assignment-block__men {
-        width: 60%;
-    }
+  .risk {
+    width: 70%;
+  }
+  .assignment-block__men {
+    width: 60%;
+  }
 }
 @media (max-width: 390px) {
-    .risk {
-        width: 75%;
-    }
-    .assignment-block__men {
-        width: 65%;
-    }
+  .risk {
+    width: 75%;
+  }
+  .assignment-block__men {
+    width: 65%;
+  }
 }
 @media (max-width: 370px) {
-    .video-title {
-        font-size: 16px;
-    }
-    .video-container {
-        width: 300px;
-        height: 10.5rem;
-    }
+  .video-title {
+    font-size: 16px;
+  }
+  .video-container {
+    width: 300px;
+    height: 10.5rem;
+  }
 }
 @media (max-width: 340px) {
-    .main-btn__participate::before {
-        left: -20%;
-    }
-    .risk {
-        width: 90%;
-    }
-    .risk-title {
-        font-size: 18px;
-    }
-    .assignment-block-name p,
-    .assignment-block__text {
-        font-size: 12px;
-    }
-    .assignment-block-name h2 {
-        font-size: 14px;
-    }
-    .video-container {
-        width: 260px;
-        height: 9rem;
-    }
+  .main-btn__participate::before {
+    left: -20%;
+  }
+  .risk {
+    width: 90%;
+  }
+  .risk-title {
+    font-size: 18px;
+  }
+  .assignment-block-name p,
+  .assignment-block__text {
+    font-size: 12px;
+  }
+  .assignment-block-name h2 {
+    font-size: 14px;
+  }
+  .video-container {
+    width: 260px;
+    height: 9rem;
+  }
 }
-
-
-
-
-
-
