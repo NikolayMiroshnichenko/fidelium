@@ -241,9 +241,8 @@
     width: 18px;
     height: 18px;
     transform: translateY(0);
-  }
-  .footer-text,
-  .footer-list__item a .social-link__item,
+  } 
+  .social-link__item,
   .footer-card__item {
     width: 28px;
     height: 28px;
@@ -902,6 +901,7 @@
     justify-content: center;
   }
   .footer-list__item {
+    text-align: center;
     margin-bottom: 15px;
   }
   .footer-contacts {
