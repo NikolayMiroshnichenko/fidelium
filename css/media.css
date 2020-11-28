@@ -12,33 +12,18 @@
   .footer-contacts__number,
   .navigations-list__item a,
   .header-number__text,
-  .main-btn__detail,
   .main-text-deskriptions {
     font-size: 16px;
-  }
-  .main-text-course {
-    font-size: 32px;
   }
   .main-text-name {
     font-size: 56px;
   }
-  .risk-list__item-number,
-  .main-text-plan {
+  .risk-list__item-number {
     font-size: 28px;
   }
   .hear-img__icon {
     width: 140px;
     height: 140px;
-  }
-  .hear-content__title {
-    font-size: 46px;
-  }
-  .hear-content__deskriptions {
-    font-size: 24px;
-    margin-bottom: 80px;
-  }
-  .hear-content__text {
-    font-size: 20px;
   }
   .hear-content__icon {
     top: 40%;
@@ -74,14 +59,28 @@
     height: 26px;
   }
 }
+
+@media (max-width: 1760px) {
+  .hear-content__title {
+    font-size: 32px;
+  }
+  .hear-content__deskriptions {
+    font-size: 20px;
+    margin-bottom: 80px;
+  }
+  .hear-content__text {
+    font-size: 20px;
+  }
+  .speakers-list__item {
+    font-size: 16px;
+  }
+}
 @media (max-width: 1660px) {
   .module-wrapper__text {
     font-size: 16px;
   }
-}
-@media (max-width: 1760px) {
-  .speakers-list__item {
-    font-size: 16px;
+  .main-btn__participate::before {
+    left: -20%;
   }
 }
 @media (max-width: 1520px) {
@@ -95,51 +94,61 @@
     height: 680px;
   }
   .main-text {
+    margin-top: 20px;
     margin-bottom: 40px;
   }
   .logo {
     width: 60px;
     height: 80px;
   }
-  .speakers-list__item,
+  .speakers-list__item {
+    font-size: 12px;
+    padding-left: 20px;
+  }
+  .speakers-list__item::before {
+    width: 14px;
+    height: 14px;
+  }
   .session-text,
   .session-list li,
   .collision-list__item,
   .risk-list__item-deskriptions,
   .assignment-block__text,
-  .assignment-block-name p,
   .main-btn__participate,
   .main-text-deskriptions,
   .header-number__text,
   .navigations-list__item a {
     font-size: 14px;
   }
+  .main-text-course {
+    font-size: 16px;
+  }
+  .main-text-plan {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+  .main-btn__text {
+    font-size: 12px;
+  }
   .main-btn__participate {
     padding: 16px 0;
   }
-  .hear-content__noy,
   .header-number__number {
     font-size: 22px;
   }
-  .video-title,
-  .main-text-course {
-    font-size: 28px;
+  .hear-content__noy,
+  .hear-content__text {
+    font-size: 18px;
   }
-  .hear-content__title,
   .main-text-name {
     font-size: 50px;
   }
-  .program-menu__item,
-  .hear-content__text,
-  .main-text-plan {
+  .program-menu__item {
     font-size: 20px;
   }
   .main-btn__participate::before {
     width: 80px;
     height: 80px;
-  }
-  .main-btn__detail {
-    font-size: 16px;
   }
   .img-text {
     padding: 15px 25px;
@@ -186,12 +195,14 @@
   .assignment-block {
     padding: 60px;
   }
-  .assignment-block-name h2 {
-    font-size: 18px;
+  .assignment-block__bottom,
+  .assignment-block__text {
+    font-size: 12px;
   }
-  .video-container {
-    width: 450px;
-    height: 16rem;
+  .assignment-block__btn {
+    font-size: 18px;
+    right: 60px;
+    bottom: 50px;
   }
   .course-description {
     width: 1170px;
@@ -241,7 +252,7 @@
     width: 18px;
     height: 18px;
     transform: translateY(0);
-  } 
+  }
   .social-link__item,
   .footer-card__item {
     width: 28px;
@@ -250,6 +261,10 @@
   .social-link__item:last-child,
   .footer-card__item:last-child {
     margin-right: 0;
+  }
+  .footer-text,
+  .footer-list__item a {
+    font-size: 12px;
   }
 }
 @media (max-width: 1290px) {
@@ -268,26 +283,30 @@
   .container {
     width: 880px;
   }
-  .main-text-course {
-    margin: 0;
-  }
   .main-wrapper {
     height: 600px;
+  }
+  .main-text {
+    margin: 10px 0 20px 0;
   }
   .main-text-name {
     font-size: 42px;
   }
+  .main-text-plan,
   .main-text-course {
-    font-size: 24px;
-  }
-  .main-text-plan {
-    font-size: 18px;
+    font-size: 14px;
   }
   .main-btn__participate {
     font-size: 12px;
   }
   .main-btn__participate::before {
     left: -15%;
+  }
+  .main-btn__text {
+    top: 70px;
+  }
+  .img-text__second {
+    right: 80%;
   }
   .hear-content__title {
     margin: 0;
@@ -356,7 +375,7 @@
     height: 60px;
   }
   .hear-content__title {
-    font-size: 32px;
+    font-size: 28px;
   }
   .hear-content__text,
   .hear-content__deskriptions {
@@ -401,27 +420,16 @@
   .assignment-block {
     padding: 40px;
   }
-}
-@media (max-width: 990px) {
-  .course-description {
-    width: 760px;
-  }
-  .course-description-list__item {
-    width: 100%;
-  }
-  .course-bottom-list {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .course-bottom-list__item {
-    width: 40%;
-    margin: 0 20px;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  .course-bottom-list__item,
-  .course-description-list__item {
+  .assignment-block__btn {
+    padding: 16px 60px 16px 10px;
     font-size: 16px;
+    bottom: 30px;
+    right: 50px;
+  }
+  .assignment-block__btn::after {
+    width: 70px;
+    height: 70px;
+    right: 0;
   }
 }
 @media (max-width: 920px) {
@@ -440,15 +448,17 @@
   .navigations-list__item a {
     font-size: 12px;
   }
-  .main-text-plan,
+  .main-text-plan {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .main-text-course,
   .header-number__number {
     font-size: 16px;
   }
+  .main-btn__text,
   .header-number__text {
     font-size: 10px;
-  }
-  .main-text-course {
-    font-size: 18px;
   }
   .main-text-name {
     font-size: 30px;
@@ -461,13 +471,6 @@
   .main-btn__participate::before {
     width: 60px;
     height: 60px;
-  }
-  .main-btn__detail {
-    font-size: 12px;
-    padding: 10px 0;
-  }
-  .main-btn__detail::before {
-    height: 1px;
   }
   .main-img {
     right: 7%;
@@ -482,7 +485,7 @@
     left: 70%;
   }
   .hear-content__title {
-    font-size: 26px;
+    font-size: 20px;
   }
   .module-wrapper__text,
   .hear-content__text,
@@ -509,6 +512,26 @@
     width: 80%;
   }
   .program-menu__item {
+    font-size: 16px;
+  }
+  .course-description {
+    width: 760px;
+  }
+  .course-description-list__item {
+    width: 100%;
+  }
+  .course-bottom-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .course-bottom-list__item {
+    width: 40%;
+    margin: 0 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .course-bottom-list__item,
+  .course-description-list__item {
     font-size: 16px;
   }
   .module-wrapper .program-menu__item.active,
@@ -549,6 +572,9 @@
   }
 }
 @media (max-width: 760px) {
+  br {
+    display: none;
+  }
   .container {
     width: 90%;
   }
@@ -564,30 +590,42 @@
     width: 100%;
   }
   .main-text-course {
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 14px;
+    margin-bottom: 20px;
   }
   .main-text-name {
     text-align: center;
-    font-size: 60px;
-    margin: 0;
+    font-size: 50px;
+    margin: 0 0 20px 0;
     padding: 0;
   }
+  .main-text-deskriptions,
   .main-text-plan {
-    text-align: center;
-  }
-  .main-text-deskriptions {
+    font-size: 16px;
     text-align: center;
   }
   .main-btn {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
-  .main-btn__detail,
+  .main-btn__text {
+    top: 60px;
+    text-align: center;
+    padding: 0 10px;
+    width: 70%;
+  }
   .main-btn__participate {
     width: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
+  }
+  .main-btn__participate::after {
+    right: -20px;
+    width: 20px;
+    height: 50px;
   }
   .main-img {
     position: static;
@@ -709,30 +747,43 @@
     height: 90px;
   }
   .assignment-wrapper {
+    padding: 0 0 40px 0;
     margin-bottom: 40px;
   }
   .assignment-block {
     padding: 20px;
     overflow: hidden;
+    transform: translateY(-40px);
   }
+  .assignment-block-info {
+    position: relative;
+    padding-top: 60px;
+  }
+  .assignment-block-info::before {
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 4px;
+    background: #2437e6;
+  }
+  .assignment-block-info__name {
+    font-family: "Bebas";
+    font-weight: normal;
+  }
+  .assignment-block__bottom,
   .assignment-block__text {
-    font-size: 14px;
+    font-size: 16px;
     width: 100%;
-    padding-bottom: 280px;
+  }
+  .assignment-block__bottom {
+    font-size: 16px;
+    padding-bottom: 300px;
   }
   .assignment-block__men {
     width: 200px;
-  }
-  .assignment-block-name {
-    right: 50%;
-    bottom: 29%;
-  }
-  .assignment-block-name h2 {
-    font-size: 16px;
-    text-align: right;
-  }
-  .assignment-block-name p {
-    text-align: right;
   }
   .assignment-block-desing__top {
     overflow: hidden;
@@ -743,12 +794,12 @@
   .assignment-block-desing__bottom {
     display: none;
   }
-  .video-title {
-    font-size: 20px;
-  }
-  .video-container {
-    width: 340px;
-    height: 12rem;
+  .assignment-block__btn {
+    right: 50%;
+    transform: translateX(50%);
+  padding: 20px 80px 20px 20px;
+    font-size: 18px;
+    white-space: nowrap;
   }
   .course-description {
     width: 90%;
@@ -862,6 +913,7 @@
   }
   .speakers-block__title {
     text-align: center;
+    font-size: 32px;
   }
   .speakers-list__item {
     font-size: 14px;
@@ -941,18 +993,16 @@
     width: 65%;
   }
 }
-@media (max-width: 370px) {
-  .video-title {
-    font-size: 16px;
-  }
-  .video-container {
-    width: 300px;
-    height: 10.5rem;
-  }
-}
 @media (max-width: 340px) {
   .main-btn__participate::before {
-    left: -20%;
+    left: -25%;
+  }
+  .main-text-name {
+    font-size: 40px;
+  }
+  .main-text-deskriptions,
+  .main-text-plan {
+    font-size: 12px;
   }
   .risk {
     width: 90%;
@@ -960,15 +1010,7 @@
   .risk-title {
     font-size: 18px;
   }
-  .assignment-block-name p,
   .assignment-block__text {
     font-size: 12px;
-  }
-  .assignment-block-name h2 {
-    font-size: 14px;
-  }
-  .video-container {
-    width: 260px;
-    height: 9rem;
   }
 }

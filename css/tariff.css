@@ -205,10 +205,34 @@
 .tariff-bonus-mobile__title {
   background-color: #f5bdbd;
 }
-
+.last-item-tariff {
+  border-right: none;
+}
 @media (max-width: 1290px) {
+  .tariff-header__text {
+    font-size: 12px;
+  }
   .tariffs-wrapper {
     width: 968px;
+  }
+  .tariff-list__item,
+  .tariffs-list__item {
+    height: 80px;
+  }
+  .tariffs-list__item p {
+    width: 220px;
+    font-size: 12px;
+  }
+  .tariffs-card-list {
+    width: 680px;
+    left: 288px;
+  }
+}
+
+
+@media (max-width: 990px) {
+  .tariffs-wrapper {
+    width: 760px;
     padding: 50px 0 80px 0;
   }
   .tariffs-title {
@@ -278,11 +302,6 @@
   .tariff-btn {
     width: 50%;
     margin: 20px auto;
-  }
-}
-@media (max-width: 990px) {
-  .tariffs-wrapper {
-    width: 760px;
   }
 }
 @media (max-width: 760px) {
