@@ -5,9 +5,8 @@ document.addEventListener('click', openModal);
 modal.addEventListener('click', closeModal);
 
 function openModal(e) {
-    e.preventDefault();
-
     if(!e.target.classList.contains( 'js-open-menu' )) return;
+    e.preventDefault();
 
     nameTariff.insertAdjacentHTML('afterbegin', e.target.dataset.name);
     modal.classList.add('active');
