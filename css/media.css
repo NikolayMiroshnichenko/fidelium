@@ -955,6 +955,10 @@
   .speakers-switch__btn:last-child {
     border-bottom-right-radius: 10px;
   }
+  .speakers-img-text.second-text {
+    top: -20px;
+    left: 30%;
+  }
 
   .footer-content {
     flex-direction: column;

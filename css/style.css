@@ -664,6 +664,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+.speakers-img-text.second-text {
+  top: 40%;
+  background-image: url(../img/main/subtract-revers.svg);
+}
 .speakers-logo {
   position: absolute;
   top: 90px;
