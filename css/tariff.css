@@ -108,6 +108,11 @@
 .tariff-list__title {
   display: none;
 }
+.tariff-list__sessions {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
 .tariff-header {
   position: absolute;
   bottom: 100%;
@@ -313,5 +318,8 @@
   }
   .tariff-btn {
     width: 90%;
+  }
+  .tariff-sessions-bg {
+    background-color: #A8E4A0 !important;
   }
 }
