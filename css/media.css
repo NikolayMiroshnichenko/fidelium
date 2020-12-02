@@ -248,6 +248,9 @@
   .speakers-logo {
     top: 40px;
   }
+  .speakers-switch__btn {
+    padding: 14px 0;
+  }
   .svg {
     width: 18px;
     height: 18px;
@@ -430,6 +433,10 @@
     width: 70px;
     height: 70px;
     right: 0;
+  }
+  .speakers-switch__btn {
+    font-size: 14px;
+    width: 160px;
   }
 }
 @media (max-width: 920px) {
@@ -931,6 +938,24 @@
     width: 280px;
     padding: 20px 0;
   }
+  .speakers-switch {
+    width: 100%;
+    position: static;
+    transform: translateX(0%);
+    left: 0;
+    top: 0;
+    margin-bottom: 20px;
+  }
+  .speakers-switch__btn {
+    width: 50%;
+  }
+  .speakers-switch__btn:first-child {
+    border-bottom-left-radius: 10px;
+  }
+  .speakers-switch__btn:last-child {
+    border-bottom-right-radius: 10px;
+  }
+
   .footer-content {
     flex-direction: column;
     align-items: center;

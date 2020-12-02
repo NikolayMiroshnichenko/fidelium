@@ -304,7 +304,11 @@
         </div>
         <div class="speakers-block">
           <h2 class="speakers-block__title"><span>Спикеры </span> Курса</h2>
-          <ul class="speakers-list">
+          <div class="speakers-switch">
+            <div class="speakers-switch__btn active" data-speaker="1">Андрей Лисовский</div>
+            <div class="speakers-switch__btn" data-speaker="2">Константин Чекунов</div>
+          </div>
+          <ul class="speakers-list active" data-list="1">
             <li class="speakers-list__item">
               Адвокат с 9-летним опытом в юридической сфере
             </li>
@@ -335,13 +339,41 @@
               Украине, а также украшений и аксессуаров для праздников на Amazon
             </li>
           </ul>
-          <a href="#tariffs" class="speakers-block__btn anchors btn-hover"
-            >Принять Участие</a
-          >
+          <ul class="speakers-list" data-list="2">
+            <li class="speakers-list__item">
+              Имеет 10-летний опыт в юридической сфере, из которых 8 лет адвокатского стажа. 
+            </li>
+            <li class="speakers-list__item">
+              Эксперт в вопросах юридической поддержки бизнеса,  в сфере инвестиций, корпоративного структурирования.
+            </li>
+            <li class="speakers-list__item">
+              Предприниматель, владелец нескольких юридических компаний, партнер Адвокатского обьединени “Fidelium”.
+            </li>
+            <li class="speakers-list__item">
+              Успешно сопровождал пул кейсов по взысканию и реструктуризации (FRNR) более 9 млн. $ в интересах международного финансового учреждения.
+            </li>
+            <li class="speakers-list__item">
+              Выступал советником в министерстве инфраструктуры по вопросам Евроинтеграции.
+            </li>
+            <li class="speakers-list__item">
+              Оказывает активную и постоянную юридическую поддержку представителям украинского шоу-бизнеса и собственников бизнеса в сфере HORECA.
+            </li>
+            <li class="speakers-list__item">
+              Опыт собственного бизнеса в beauty индустрии, а так же в сегменте rental.
+            </li>
+
+          </ul>
+          <a href="#tariffs" class="speakers-block__btn anchors">
+            Принять Участие
+          </a>
         </div>
-        <div class="speakers-img">
-          <img src="img/speakers/speakers.webp" alt="" />
+        <div class="speakers-img active" data-img="1">
+          <img src="img/speakers/1.webp" alt="Андрей Лисовский" />
           <p class="speakers-img-text">Андрей Лисовский</p>
+        </div>
+        <div class="speakers-img" data-img="2">
+          <img src="img/speakers/2.webp" alt="Константин Чекунов" />
+          <p class="speakers-img-text">Константин Чекунов</p>
         </div>
       </div>
     </section>
@@ -2401,8 +2433,16 @@
           <img src="img/footer/logo.svg" class="footer-content__img" alt="" />
           <div class="social-link">
             <a href="#" class="social-link__item telegram-icon">telegram</a>
-            <a href="https://instagram.com/law_firm_fidelium?igshid=xp7h141o1a1z" class="social-link__item instagram-icon">instagram</a>
-            <a href="https://m.facebook.com/fidelium.group/" class="social-link__item facebook-icon">facebook</a>
+            <a
+              href="https://instagram.com/law_firm_fidelium?igshid=xp7h141o1a1z"
+              class="social-link__item instagram-icon"
+              >instagram</a
+            >
+            <a
+              href="https://m.facebook.com/fidelium.group/"
+              class="social-link__item facebook-icon"
+              >facebook</a
+            >
           </div>
           <ul class="footer-list">
             <li class="footer-list__item">
@@ -2441,7 +2481,9 @@
         <p class="footer-text">
           © Fidelium. Все права защищены. Любое копирование материалов разрешено
           только с согласия правообладателей. По всем вопросам обращайтесь:
-          <a href="mailto:a.lisovskyi@fidelium.com.ua">a.lisovskyi@fidelium.com.ua</a>
+          <a href="mailto:a.lisovskyi@fidelium.com.ua"
+            >a.lisovskyi@fidelium.com.ua</a
+          >
         </p>
       </div>
     </footer>
@@ -2503,18 +2545,26 @@
             </a>
           </li>
           <li>
-            <a href="https://instagram.com/law_firm_fidelium?igshid=xp7h141o1a1z" class="munu-soceal__item instagram">
+            <a
+              href="https://instagram.com/law_firm_fidelium?igshid=xp7h141o1a1z"
+              class="munu-soceal__item instagram"
+            >
               instagram
             </a>
           </li>
           <li>
-            <a href="https://m.facebook.com/fidelium.group/" class="munu-soceal__item faceboock">faceboock</a>
+            <a
+              href="https://m.facebook.com/fidelium.group/"
+              class="munu-soceal__item faceboock"
+              >faceboock</a
+            >
           </li>
         </ul>
       </div>
     </div>
 
     <script src="js/jqvery.js"></script>
+    <script src="js/speakers.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/tabs.js"></script>
